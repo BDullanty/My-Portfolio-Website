@@ -1,27 +1,19 @@
-Welcome to setup instructions for locally hosting this website
+Welcome to setup and download instructions for locally hosting this website.
 
-Generic guide:
-[guide](https://www.geeksforgeeks.org/how-to-install-reactjs-on-windows/)
+# Windows guide:
+[GUIDE LINK](https://www.geeksforgeeks.org/how-to-install-reactjs-on-windows/)
 
-Specific details:
-- Generic guide to install Node.js, fnm and NPM: 
-  [link to guide](https://nodejs.org/en/download/package-manager)
-- Install fnm steps:
-  - installs fnm (Fast Node Manager) <br>
-  ```winget install Schniz.fnm```
-  - Open WindowsPowershell as admin, and ensure that you can run  
-  <br>
-  ```if (!(Test-Path -Path $PROFILE)) {New-Item -ItemType File -Path $PROFILE -Force```
-  <br>[link to guide](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_profiles?view=powershell-7.4#how-to-create-a-profile/)
+## Steps:
+### 1. Download Repository files
+### 2. Download Needed Dependancies:
+#### Install Node.js and NPM from nodejs.org: 
+- Download and install Node.js and NPM from [here](https://nodejs.org/en/download/prebuilt-installer/)
 
-  - Enter the notepad using<br>
-   ```notepad $profile```
-  - And enter the following into the notepad and save.
-  ``` fnm env --use-on-cd | Out-String | Invoke-Expression``` error here when reproducing
-  - fnm -v should work now.
-- Download and install Node.js:
-  ```fnm use --install-if-missing 20```
-  - Verify the right Node.js version is in the environment
-  ``` node -v # should print `v20.15.1` ```
-  # verifies the right NPM version is in the environment
-  ``` npm -v # should print `10.7.0` ```
+#### Install create-react-app and react-scripts:<br>
+- Download by running these commands on admin PowerShell:  
+```npm install -g create-react-app``` and ```npm install react-scripts --save```<br>
+
+### 3. Run:
+- Navigate to the downloaded folder ```./reactfirst``` from this repository
+- Type npm start
+- Navigate to http://localhost:3000/
