@@ -1,0 +1,49 @@
+.Homepage {
+  text-align: center;
+  box-sizing: border-box;
+  border: 10px solid blue;
+  background: black;
+}
+
+.HomePage-logo {
+  height: 40vmin;
+  width: 40vmin;
+  pointer-events: none;
+  border-radius:50%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .HomePage-logo {
+    animation: App-logo-spin infinite 0s linear;
+  }
+}
+.Mission-Statement{
+  align-items: center;
+  justify-content: center;
+}
+.App-header {
+ 
+  box-sizing: border-box;
+  border: 10px;
+  background: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
