@@ -10,6 +10,8 @@
   width: 40vmin;
   pointer-events: none;
   border-radius:50%;
+  box-shadow: 0 20px 20px 0 rgba(188, 35, 5, 0.73);
+  transition: .01s;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -20,12 +22,21 @@
 .Mission-Statement{
   align-items: center;
   justify-content: center;
-}
-.App-header {
- 
   box-sizing: border-box;
   border: 10px;
-  background: black;
+  border-radius: 100%;
+  border-color: black;
+}
+.HomePage-header {
+ 
+  box-sizing: border-box;
+  border-style: solid;
+  border-color: #023535;
+  border-right-width: 7vw;
+  border-left-width: 7vw;
+  border-top-width: 0;
+  border-bottom-width: 0;
+  background-color: #008F8C;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,8 +46,30 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.HomePage-body {
+ 
+  box-sizing: border-box;
+  border-style: solid;
+  border-color: #023535;
+  border-right-width: 7vw;
+  border-left-width: 7vw;
+  border-top-width: 0;
+  border-bottom-width: 0;
+  background-color: #0CABA8;
+  min-height: 50vmin;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:start;
+  font-size: calc(5px + 2vmin);
+  color: white;
+  
+}
+.HomePage-link {
+  
+  font-size: calc(2vmin);
+  margin-left: 1vw;
+  text-align: left;
 }
 
 @keyframes App-logo-spin {

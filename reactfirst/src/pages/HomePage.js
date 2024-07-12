@@ -5,7 +5,7 @@ import './HomePage.css';
 export const HomePage = () => {
   return (
     <div className="HomePage">
-      <header className="App-header">
+      <header className="HomePage-header">
         <img src={logo} className="HomePage-logo" alt="logo" />
         <p>
          Welcome to Brady Dullanty's Porfolio Website.
@@ -15,11 +15,16 @@ export const HomePage = () => {
           I am a current student at Eastern Washington unviversity looking for an ethical company for which I can work as a software developer
           Intern.
         </h6>
-        <h3>
+       
+      </header>
+
+      
+      <body className='HomePage-body'> 
+        <h6>
         Links:  
-        </h3>
+        </h6>
         <a
-          className="App-link"
+          className="HomePage-link"
           href="https://github.com/bdullanty"
           target="_blank"
           rel="noopener noreferrer"
@@ -28,15 +33,14 @@ export const HomePage = () => {
         </a>
         
         <a
-          className="App-link"
+          className="HomePage-link"
           href="https://LinkedIn.com/in/bdullanty"
           target="_blank"
           rel="noopener noreferrer"
         >
         Linkedin
         </a>
-      </header>
-      
+      </body>
     </div>
   );
 }
