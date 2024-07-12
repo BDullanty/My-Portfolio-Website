@@ -6,10 +6,11 @@
 }
 
 .HomePage-logo {
-  height: 40vmin;
-  width: 40vmin;
+  height: 10vw;
+  width: 10vw;
   pointer-events: none;
   border-radius:50%;
+  float: left;
   box-shadow: 0 20px 20px 0 rgba(188, 35, 5, 0.73);
   transition: .01s;
 }
@@ -19,13 +20,17 @@
     animation: App-logo-spin infinite 0s linear;
   }
 }
-.Mission-Statement{
+.HomePage-Mission-Statement-title{
   align-items: center;
   justify-content: center;
+  text-align: center;
   box-sizing: border-box;
   border: 10px;
   border-radius: 100%;
   border-color: black;
+}
+.HomePage-Mission-Statement{
+  text-align: center;
 }
 .HomePage-header {
  

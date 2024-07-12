@@ -1,7 +1,7 @@
 import logo from '../images/HomePage-logo.jpg';
 
 import './HomePage.css';
-
+import { GithubLinkCard,  LinkedInLinkCard } from '../Components/LinkCards';
 export const HomePage = () => {
   return (
     <div className="HomePage">
@@ -10,8 +10,8 @@ export const HomePage = () => {
         <p>
          Welcome to Brady Dullanty's Porfolio Website.
         </p>
-        <h4 className="Mission-Statement">Mission Statement:</h4>
-        <h6>
+        <h4 className="HomePage-Mission-Statement-title">Mission Statement:</h4>
+        <h6 className="HomePage-Mission-Statement">
           I am a current student at Eastern Washington unviversity looking for an ethical company for which I can work as a software developer
           Intern.
         </h6>
@@ -32,14 +32,9 @@ export const HomePage = () => {
           Github
         </a>
         
-        <a
-          className="HomePage-link"
-          href="https://LinkedIn.com/in/bdullanty"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-        Linkedin
-        </a>
+        <br/>
+        <LinkedInLinkCard/>
+        <GithubLinkCard/>
       </body>
     </div>
   );
