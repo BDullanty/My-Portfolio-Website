@@ -1,0 +1,32 @@
+.CardLinkButton{
+    text-align: center;
+    color: #005173;
+    background: #005173;
+    justify-content: center;
+    size:  5vw;
+    
+    
+    
+}
+.LinkCardBackground{
+    
+    margin-top: -2vh;
+    width: 7vw;
+    height: 5vw;
+    text-align: center;
+    background-color: #005173;
+}
+.ButtonTitle{
+    color: white;
+    margin-right: 1vw;
+    
+    
+}
+.LinkText{
+    height: 1vw;
+    text-align: center;
+    justify-content: center;
+}
+.CardLinkGrid{
+    margin-top: -5vh;
+}

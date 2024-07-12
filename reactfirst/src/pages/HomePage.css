@@ -3,6 +3,7 @@
   box-sizing: border-box;
   border: 10px solid blue;
   background: black;
+  
 }
 
 .HomePage-logo {
@@ -10,7 +11,7 @@
   width: 10vw;
   pointer-events: none;
   border-radius:50%;
-  float: left;
+
   box-shadow: 0 20px 20px 0 rgba(188, 35, 5, 0.73);
   transition: .01s;
 }
@@ -25,43 +26,47 @@
   justify-content: center;
   text-align: center;
   box-sizing: border-box;
-  border: 10px;
-  border-radius: 100%;
-  border-color: black;
+  
 }
 .HomePage-Mission-Statement{
   text-align: center;
+  margin-top: -2vh;
+  margin-bottom: 0px;
+  margin-left: 7vw;
+  margin-right: 7vw;
 }
 .HomePage-header {
- 
+  text-align: center;
   box-sizing: border-box;
   border-style: solid;
-  border-color: #023535;
+  border-color: #00253F;
   border-right-width: 7vw;
   border-left-width: 7vw;
   border-top-width: 0;
   border-bottom-width: 0;
-  background-color: #008F8C;
-  min-height: 100vh;
+  background-color: #0489A4;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  margin-bottom: -1vh;
 }
 
 .HomePage-body {
  
   box-sizing: border-box;
   border-style: solid;
-  border-color: #023535;
+  border-color: #00253F;
   border-right-width: 7vw;
   border-left-width: 7vw;
   border-top-width: 0;
   border-bottom-width: 0;
-  background-color: #0CABA8;
-  min-height: 50vmin;
+  margin-top: vh;
+  background-color: #0489A4;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
