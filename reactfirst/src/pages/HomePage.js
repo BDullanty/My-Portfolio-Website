@@ -2,10 +2,14 @@ import logo from '../images/HomePage-logo.jpg';
 
 import './HomePage.css';
 import { GridOfLinkCards,GithubLinkCard,  LinkedInLinkCard } from '../Components/LinkCards';
+import {ButtonAppBar} from '../Components/AppBar'
+import { Button } from '@mui/material';
 export const HomePage = () => {
   return (
     <div className="HomePage">
+       <ButtonAppBar/>
       <header className="HomePage-header">
+       
         <img src={logo} className="HomePage-logo" alt="logo" />
         <p>
          Welcome to Brady Dullanty's Porfolio Website.
