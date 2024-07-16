@@ -13,7 +13,6 @@ export function ButtonAppBar() {
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static" width ='100%'>
         <Toolbar>
-
           <IconButton
             size="large"
             edge="start"
@@ -47,9 +46,9 @@ export function ButtonAppBar() {
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} center>
           
           </Typography>
-                <button>
+                <Button variant="contained" >
                     Hire Me
-                </button>
+                </Button>
         </Toolbar>
       </AppBar>
     </Box>

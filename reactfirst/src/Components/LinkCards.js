@@ -27,16 +27,13 @@ export function GridOfLinkCards(){
 export function GithubLinkCard() { 
     return (
         <Card >
-               <CardMedia component = "img" image={gitLogo} sx={{padding: ".5vh", height:"5vh",width:"10vh",objectFit:"contain"}}/>
+               <CardMedia component = "img" image={gitLogo} sx={{padding: ".5vh", height:"5vh",width:"10vh",objectFit:"contain"}}
+               onClick={() => {
+                window.open("https://github.com/bdullanty","_blank")
+               }}
+               />
          
-            <CardActions className="CardLinkButton">
-                <Button variant="contained"  size="large" onClick={() => {
-                window.open("https://github.com/bdullanty","_blank");
-                
-            }}
-                
-                >Link</Button>
-            </CardActions>
+
         </Card>
     )
 }
@@ -45,16 +42,13 @@ export function LinkedInLinkCard() {
     return (
         <Card>
         
-            <CardMedia component = "img" image={linkedInLogo} sx={{padding: ".5vh", height:"5vh",width:"10vh",objectFit:"contain"}}/>
-           
-            <CardActions className="CardLinkButton">
-                <Button variant="contained" size="large" onClick={() => {
-                 window.open("https://linkedin.com/in/bdullanty/","_blank");
-             
-            }}
-                
-                >Link</Button>
-            </CardActions>
+            <CardMedia component = "img" image={linkedInLogo} 
+            sx={{padding: ".5vh", height:"5vh",width:"10vh",objectFit:"contain"}}
+            onClick={() => {
+                window.open("https://linkedin.com/in/bdullanty/","_blank");
+            
+           }}/>
+
         </Card>
     )
 }

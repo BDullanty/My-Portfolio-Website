@@ -10,7 +10,7 @@ export const HomePage = () => {
        <ButtonAppBar/>
       <header className="HomePage-header">
        
-        <img src={logo} className="HomePage-logo" alt="logo" />
+   
         <p>
          Welcome to Brady Dullanty's Porfolio Website.
         </p>
@@ -32,7 +32,7 @@ export const HomePage = () => {
 
       
       <body className='HomePage-body'> 
-        <h4>Links:</h4>
+        <h4>External Sites:</h4>
        <GridOfLinkCards/>
       </body>
     </div>
