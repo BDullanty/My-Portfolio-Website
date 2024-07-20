@@ -1,18 +1,17 @@
 import {ButtonAppBar} from "../Components/AppBar";
-
+import './Education.css';
 
 export const Education = () => {
   return (
-    <div>
+    <div classname="Education">
       <ButtonAppBar/>
-      <header>
+      <header className="HomePage-header">
 
 
       </header>
-      <body>
+      <body className='HomePage-body'>
 
-      </body>
-    <p>hellooooo :)</p>
+      </body >
     </div>
   )
 }
