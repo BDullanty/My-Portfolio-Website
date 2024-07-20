@@ -7,14 +7,15 @@ import {
 
 import HomePage from "./pages/HomePage";
 import Education from "./pages/Education";
+import HireMe from "./pages/HireMe";
 
 function App(){
   return (
     <Router>
       <Routes>
         <Route path="/" element = {<HomePage/>} />
-        
         <Route path="/education" element = {<Education/>} />
+        <Route path="/HireMe" element = {<HireMe/>} />
       </Routes>
     </Router>
   );

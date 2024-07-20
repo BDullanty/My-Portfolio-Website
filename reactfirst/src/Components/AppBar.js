@@ -46,7 +46,10 @@ export function ButtonAppBar() {
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} center>
           
           </Typography>
-                <Button variant="contained" >
+                <Button variant="contained" onClick={() => {
+                window.location.assign("./HireMe");
+                   
+               }}>
                     Hire Me
                 </Button>
         </Toolbar>

@@ -5,11 +5,11 @@ export const Education = () => {
   return (
     <div classname="Education">
       <ButtonAppBar/>
-      <header className="HomePage-header">
+      <header className="Education-header">
 
 
       </header>
-      <body className='HomePage-body'>
+      <body className='Education-body'>
 
       </body >
     </div>
