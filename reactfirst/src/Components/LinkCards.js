@@ -1,6 +1,8 @@
 import "./LinkCards.css";
-import gitLogo from"../images/GithubLogo.png"
-import linkedInLogo from "../images/LinkedInLogo.png" 
+import gitLogo from"../images/GithubLogo.png";
+import linkedInLogo from "../images/LinkedInLogo.png"; 
+import hackerrankLogo from "../images/HackerRankLogo.png";
+
 import { Button, CardActions, CardMedia } from '@mui/material';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
@@ -15,8 +17,11 @@ export function GridOfLinkCards(){
         </Grid>
         <Grid item>
         <GithubLinkCard/>
+        
         </Grid>
-         
+        <Grid item>
+            <HackerRankLinkCard/>
+        </Grid>
     </Grid>
     )
 }
@@ -46,6 +51,21 @@ export function LinkedInLinkCard() {
             sx={{padding: ".5vh", height:"5vh",width:"10vh",objectFit:"contain"}}
             onClick={() => {
                 window.open("https://linkedin.com/in/bdullanty/","_blank");
+            
+           }}/>
+
+        </Card>
+    )
+}
+
+export function HackerRankLinkCard() { 
+    return (
+        <Card>
+        
+            <CardMedia component = "img" image={hackerrankLogo} 
+            sx={{padding: ".5vh", height:"5vh",width:"10vh",objectFit:"contain"}}
+            onClick={() => {
+                window.open("https://www.hackerrank.com/profile/bdullanty","_blank");
             
            }}/>
 
