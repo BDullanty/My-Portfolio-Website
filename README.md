@@ -16,7 +16,7 @@ Toolbar:
 - font
 
 Homepage:
-- Logo picutre
+- Logo picture
 - Logo positioning
 - Mission Statement
 - Short about me

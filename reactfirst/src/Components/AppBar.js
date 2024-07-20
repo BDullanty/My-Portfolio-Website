@@ -43,6 +43,24 @@ export function ButtonAppBar() {
             Education and Classes
           </Typography> 
           </IconButton>
+          
+          <IconButton
+            size="large"
+            edge="start"
+            color="inherit"
+            aria-label="menu"
+            sx={{ mr: 2 }}
+            onClick={() => {
+                window.location.assign("./Projects");
+                   
+               }}>
+            
+            <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} center>
+            Projects
+          </Typography> 
+          </IconButton>
+
+
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} center>
           
           </Typography>
