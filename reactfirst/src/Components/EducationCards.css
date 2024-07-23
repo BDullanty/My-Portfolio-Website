@@ -1,0 +1,29 @@
+.ClassCardBackground {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x:scroll;
+    justify-content: left;
+    text-align: center;
+    background-color: #0489A4;
+    max-width: 70vw;
+    height: 100vh;
+    
+    
+}
+
+.ClassCard {
+    width: 20vw;
+    padding: 1vw;
+    
+    height: 18vh;
+    flex: auto;
+    background-color: #00253F;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    }
+
+.p {
+    white-space: normal;
+ 
+}
