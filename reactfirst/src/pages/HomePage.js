@@ -11,9 +11,9 @@ export const HomePage = () => {
       <header className="HomePage-header">
        
    
-        <p>
+        <h1 className="Homepage-Title">
          Welcome to Brady Dullanty's Porfolio Website.
-        </p>
+        </h1>
         <h4 className="HomePage-Mission-Statement-title">Mission Statement:</h4>
         <h6 className="HomePage-Mission-Statement">
           I am a current student at Eastern Washington unviversity looking for an ethical company for which I can work as a software developer

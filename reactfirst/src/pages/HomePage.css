@@ -5,13 +5,15 @@
   background: black;
   
 }
-
+.Homepage-Title{
+  margin-top: 15vh;
+  margin-bottom: vh;
+}
 .HomePage-logo {
   height: 10vw;
   width: 10vw;
   pointer-events: none;
   border-radius:50%;
-
   box-shadow: 0 20px 20px 0 rgba(188, 35, 5, 0.73);
   transition: .01s;
 }
@@ -26,11 +28,12 @@
   justify-content: center;
   text-align: center;
   box-sizing: border-box;
+  margin-top: 0vw;
   
 }
 .HomePage-Mission-Statement{
   text-align: center;
-  margin-top: -2vh;
+  margin-top: 0vh;
   margin-bottom: 0px;
   margin-left: 7vw;
   margin-right: 7vw;
