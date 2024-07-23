@@ -13,7 +13,10 @@ export const Education = () => {
       <body className='Education-body'>
         <GridOfEducationCards/>
       </body >
-      <footer className="Education-header"/>
+      <footer className="Education-footer">
+      <h6 className="Education-Footer-Statement">
+        Website created by Brady Dullanty using React, hosted using AWS</h6>
+      </footer>
     </div>
   )
 }
