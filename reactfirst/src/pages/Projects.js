@@ -12,6 +12,8 @@ export const Projects = () => {
       <body className='Projects-body'>
 
       </body >
+      
+      <footer className="HomePage-header"/>
     </div>
   )
 }

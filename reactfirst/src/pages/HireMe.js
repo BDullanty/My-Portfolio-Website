@@ -12,6 +12,8 @@ export const HireMe = () => {
       <body className='HireMe-body'>
 
       </body >
+      
+      <footer className="HomePage-header"/>
     </div>
   )
 }
