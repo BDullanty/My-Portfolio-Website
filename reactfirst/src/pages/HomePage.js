@@ -14,7 +14,14 @@ export const HomePage = () => {
         <h1 className="Homepage-Title">
          Welcome to Brady Dullanty's Porfolio Website.
         </h1>
-        <h4 className="HomePage-Mission-Statement-title">Mission Statement:</h4>
+        
+
+      </header>
+
+      
+      <body className='HomePage-body'> 
+
+      <h4 className="HomePage-Mission-Statement-title">Mission Statement:</h4>
         <h6 className="HomePage-Mission-Statement">
           I am a current student at Eastern Washington unviversity looking for an ethical company for which I can work as a software developer
           Intern.
@@ -27,15 +34,17 @@ export const HomePage = () => {
           Intern. more ect.
           
         </h6>
-
-      </header>
-
-      
-      <body className='HomePage-body'> 
         <h4>External Sites:</h4>
+        <br/>
        <GridOfLinkCards/>
+       
+       
       </body>
-      <footer className="HomePage-header"/>
+      <footer className="HomePage-footer">
+      <h6 className="HomePage-Footer-Statement">
+        Website created by Brady Dullanty using React, hosted using AWS</h6>
+        </footer>
+
     </div>
   );
 }

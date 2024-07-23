@@ -1,42 +1,32 @@
-.Homepage {
+
+.HomePage {
   text-align: center;
   box-sizing: border-box;
-  border: 10px solid blue;
-  background: black;
-  
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 .Homepage-Title{
-  margin-top: 15vh;
-  margin-bottom: vh;
-}
-.HomePage-logo {
-  height: 10vw;
-  width: 10vw;
-  pointer-events: none;
-  border-radius:50%;
-  box-shadow: 0 20px 20px 0 rgba(188, 35, 5, 0.73);
-  transition: .01s;
+  margin-top: 10%;
+  font-size: calc(10px + 5vmin);
+  vertical-align: bottom;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .HomePage-logo {
-    animation: App-logo-spin infinite 0s linear;
-  }
-}
 .HomePage-Mission-Statement-title{
   align-items: center;
   justify-content: center;
   text-align: center;
   box-sizing: border-box;
-  margin-top: 0vw;
+  margin: 1%;
+  font-size: calc(10px + 2vmin);
   
 }
 .HomePage-Mission-Statement{
   text-align: center;
-  margin-top: 0vh;
-  margin-bottom: 0px;
   margin-left: 7vw;
   margin-right: 7vw;
+  margin: 0%;
+  font-size: calc(10px + 2vmin);
 }
 .HomePage-header {
   text-align: center;
@@ -48,18 +38,17 @@
   border-top-width: 0;
   border-bottom-width: 0;
   background-color: #0489A4;
-  min-height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  margin-bottom: -1vh;
+  height: 40%;
 }
 
 .HomePage-body {
- 
+  vertical-align: middle;
   box-sizing: border-box;
   border-style: solid;
   border-color: #00253F;
@@ -67,16 +56,28 @@
   border-left-width: 7vw;
   border-top-width: 0;
   border-bottom-width: 0;
-  margin-top: vh;
   background-color: #0489A4;
-  min-height: 50vh;
+  overflow: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content:start;
   font-size: calc(5px + 2vmin);
   color: white;
+  height: 60%;
   
+}
+.HomePage-footer {
+  border-style: solid;
+  border-color: #00253F;
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  border-right-width: 7vw;
+  border-left-width: 7vw;
+  border-top-width: 0;
+  border-bottom-width: 0;
+  background-color: #0489A4;
+  height: 5%;
 }
 .HomePage-link {
   
@@ -84,12 +85,10 @@
   margin-left: 1vw;
   text-align: left;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.HomePage-Footer-Statement{
+  text-align: center;
+  margin-left: 7vw;
+  margin-right: 7vw;
+  margin: 0%;
+  font-size: calc(5px + 1vmin);
 }
