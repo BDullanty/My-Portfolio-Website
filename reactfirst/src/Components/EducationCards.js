@@ -41,18 +41,17 @@ export function Class210() {
             <Card sx={{ minWidth: 275 }} className="ClassCard">
               <CardContent>
                 <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                  Word of the Day
+                 CSCD210
                 </Typography>
                 <Typography variant="h5" component="div">
-                test
+                Java Principals
                 </Typography>
                 <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                  adjective
+                  A+
                 </Typography>
                 <Typography variant="body2">
-                  well meaning and kindly.
-                  <br />
-                  {'"a benevolent smile"'}
+                  An introduction to java
+                
                 </Typography>
               </CardContent>
               <CardActions>
