@@ -35,6 +35,7 @@ export const HomePage = () => {
         <h4>External Sites:</h4>
        <GridOfLinkCards/>
       </body>
+      <footer className="HomePage-header"/>
     </div>
   );
 }
