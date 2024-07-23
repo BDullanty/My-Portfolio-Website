@@ -10,7 +10,7 @@ import logo from '../images/HomePage-logo.jpg';
 export function ButtonAppBar() {
 
   return (
-    <Box sx={{ flexGrow: 1 }}>
+  
       <AppBar  >
         <Toolbar >
           <IconButton
@@ -76,6 +76,5 @@ export function ButtonAppBar() {
                 </IconButton>
         </Toolbar>
       </AppBar>
-    </Box>
   );
 }
