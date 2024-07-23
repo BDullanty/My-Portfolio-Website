@@ -11,10 +11,10 @@ export function ButtonAppBar() {
 
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static" width ='100%'>
-        <Toolbar>
+      <AppBar  >
+        <Toolbar >
           <IconButton
-            size="large"
+            size="small"
             edge="start"
             color="inherit"
             aria-label="menu"
@@ -24,12 +24,12 @@ export function ButtonAppBar() {
                    
                }}>
             
-            <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+            <Typography variant="body1" component="div" sx={{ flexGrow: 1 }}>
             Home
             </Typography>
           </IconButton>
           <IconButton
-            size="large"
+            size="small"
             edge="start"
             color="inherit"
             aria-label="menu"
@@ -39,13 +39,13 @@ export function ButtonAppBar() {
                    
                }}>
             
-            <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} center>
-            Education and Classes
+            <Typography variant="body1" component="div" sx={{ flexGrow: 0 }} center>
+            Education
           </Typography> 
           </IconButton>
           
           <IconButton
-            size="large"
+            size="small"
             edge="start"
             color="inherit"
             aria-label="menu"
@@ -55,21 +55,25 @@ export function ButtonAppBar() {
                    
                }}>
             
-            <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} center>
+            <Typography variant="body1" component="div" sx={{ flexGrow: 0 }} center>
             Projects
-          </Typography> 
+            </Typography>
           </IconButton>
 
 
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} center>
-          
-          </Typography>
-                <Button variant="contained" onClick={() => {
+     
+                <IconButton
+                 size="small"
+            edge="start"
+            color="inherit"
+            aria-label="menu"
+            sx={{ mr: 2 }} onClick={() => {
                 window.location.assign("./HireMe");
                    
-               }}>
+               }}><Typography variant="body1" component="div" sx={{ flexGrow: 0 }} center>
                     Hire Me
-                </Button>
+                    </Typography>
+                </IconButton>
         </Toolbar>
       </AppBar>
     </Box>
