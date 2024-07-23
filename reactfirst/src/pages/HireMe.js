@@ -13,7 +13,10 @@ export const HireMe = () => {
 
       </body >
       
-      <footer className="HomePage-header"/>
+      <footer className="HireMe-footer">
+      <h6 className="HireMe-Footer-Statement">
+        Website created by Brady Dullanty using React, hosted using AWS</h6>
+      </footer>
     </div>
   )
 }
