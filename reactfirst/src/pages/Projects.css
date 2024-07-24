@@ -4,10 +4,10 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  height: 100vh
+  height: 100vh;
 }
 .Projects-Title{
-  margin-top: 10%;
+  padding-top: 4vh;
   font-size: calc(10px + 5vmin);
   vertical-align: bottom;
 }
@@ -23,10 +23,11 @@
 }
 .Projects-Mission-Statement{
   text-align: center;
-  margin-left: 7vw;
-  margin-right: 7vw;
-  margin: 0%;
-  font-size: calc(10px + 2vmin);
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  font-size: calc(12px + 1vmin);
 }
 .Projects-header {
   text-align: center;
@@ -44,7 +45,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  height: 40%;
+  height: 20%;
 }
 
 .Projects-body {
@@ -63,7 +64,7 @@
   align-items: center;
   font-size: calc(5px + 2vmin);
   color: white;
-  height: 60vh;
+  height: 95vh;
   
 }
 .Projects-footer {
@@ -77,7 +78,7 @@
   border-top-width: 0;
   border-bottom-width: 0;
   background-color: #0489A4;
-  height: 35%;
+  height: 5vh;
 }
 .Projects-link {
   
