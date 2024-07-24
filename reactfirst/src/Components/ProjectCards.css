@@ -1,19 +1,16 @@
-.ClassCardBackground {
+.ProjectCardBackground {
     display: flex;
     flex-wrap: nowrap;
-    overflow-x: hide;
-    justify-content: left;
+    overflow: hidden;
+    justify-content: center;
     text-align: center;
     background-color: #0489A4;
-    min-width: 70vw;
-    height: 40vh;
+    max-width: 100%;
     
 }
 
 .ProjectCard {
     width: 20vw;
-    padding: 1vw;
-    
     height: 39vh;
     flex: auto;
     background-color: #00253F;

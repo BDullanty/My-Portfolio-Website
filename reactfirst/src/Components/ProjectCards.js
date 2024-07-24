@@ -17,7 +17,12 @@ export function GridOfProjectCards(){
         
         </Grid>
         <Grid item>
-
+        < WeatherAssistantToolProjectCard/>
+        </Grid>
+        <Grid item>
+        < WeatherAssistantToolProjectCard/>
+        </Grid>
+        <Grid item>
         < WeatherAssistantToolProjectCard/>
         </Grid>
     </Grid>

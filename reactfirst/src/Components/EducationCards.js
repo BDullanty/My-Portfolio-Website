@@ -11,24 +11,49 @@ export function GridOfEducationCards(){
   const { events } = useDraggable(ref); // Now we pass the reference to the useDraggable hook:
   const someNumbers = [...Array(30).keys()];
   return (
-    <div
+    <Grid container spacing = {2}
       className="ClassCardBackground"
       {...events}
       ref={ref} // add reference and events to the wrapping div
     >
         
-      
-          <Class210/>
-          <Class210/>
-          <Class210/>
-          <Class210/>
-          <Class210/>
-          <Class210/>
-          <Class210/>
-          <Class210/>
-          <Class210/>
-          <Class210/>
-    </div>
+        <Grid item>
+        <Class210/>
+        </Grid>
+        <Grid item>
+        <Class210/>
+        </Grid>
+        <Grid item>
+        <Class210/>
+        </Grid>
+        <Grid item>
+        <Class210/>
+        </Grid>
+        <Grid item>
+        <Class210/>
+        </Grid>
+        <Grid item>
+        <Class210/>
+        </Grid>
+         <Grid item>
+        <Class210/>
+        </Grid>
+        <Grid item>
+        <Class210/>
+        </Grid>
+        <Grid item>
+        <Class210/>
+        </Grid>
+        <Grid item>
+        <Class210/>
+        </Grid>
+        <Grid item>
+        <Class210/>
+        </Grid>
+        <Grid item>
+        <Class210/>
+        </Grid>
+    </Grid>
 
   );
 }
