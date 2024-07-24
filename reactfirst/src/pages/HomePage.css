@@ -7,7 +7,7 @@
   height: 100vh;
 }
 .Homepage-Title{
-  margin-top: 10%;
+  padding-top: 4vh;
   font-size: calc(10px + 5vmin);
   vertical-align: bottom;
 }
@@ -17,16 +17,17 @@
   justify-content: center;
   text-align: center;
   box-sizing: border-box;
-  margin: 1%;
-  font-size: calc(10px + 2vmin);
+  margin: .5vh;
+  font-size: calc(5px + 4vmin)
   
 }
 .HomePage-Mission-Statement{
   text-align: center;
-  margin-left: 7vw;
-  margin-right: 7vw;
-  margin: 0%;
-  font-size: calc(10px + 2vmin);
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  font-size: calc(12px + 1vmin);
 }
 .HomePage-header {
   text-align: center;
@@ -44,7 +45,6 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  height: 40%;
 }
 
 .HomePage-body {
@@ -63,10 +63,12 @@
   align-items: center;
   font-size: calc(5px + 2vmin);
   color: white;
-  height: 60%;
+  height: 98vh;
   
 }
 .HomePage-footer {
+
+  text-align: center;
   border-style: solid;
   border-color: #00253F;
   display:flex;
@@ -77,7 +79,7 @@
   border-top-width: 0;
   border-bottom-width: 0;
   background-color: #0489A4;
-  height: 5%;
+  height: 2vh;
 }
 .HomePage-link {
   
@@ -91,4 +93,12 @@
   margin-right: 7vw;
   margin: 0%;
   font-size: calc(5px + 1vmin);
+}
+.ExternalSites-title{
+  text-align: center;
+  margin-left: 7vw;
+  margin-right: 7vw;
+  margin: 1%;
+  font-size: calc(5px + 4vmin);
+
 }
