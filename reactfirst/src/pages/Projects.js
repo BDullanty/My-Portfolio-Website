@@ -9,7 +9,6 @@ export const Projects = () => {
       <ButtonAppBar/>
 
       <body className='Projects-body'>
-       
         <h1 className="Projects-Title">Below is a list of projects I have on github.</h1>
         <GridOfProjectCards/>
       </body >

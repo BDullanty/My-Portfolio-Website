@@ -57,13 +57,13 @@
   border-top-width: 0;
   border-bottom-width: 0;
   background-color: #0489A4;
-  overflow: auto;
+
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: calc(5px + 2vmin);
   color: white;
-  height: 98vh;
+  height: 120vh;
   
 }
 .HomePage-footer {
