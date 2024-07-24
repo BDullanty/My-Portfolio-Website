@@ -30,26 +30,10 @@
   margin-right: 10vw;
   font-size: calc(12px + 1vmin);
 }
-.Projects-header {
-  text-align: center;
-  box-sizing: border-box;
-  border-style: solid;
-  border-color: #00253F;
-  border-right-width: 7vw;
-  border-left-width: 7vw;
-  border-top-width: 0;
-  border-bottom-width: 0;
-  background-color: #0489A4;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  height: 2vh;
-}
+
 
 .Projects-body {
+  vertical-align: middle;
   box-sizing: border-box;
   border-style: solid;
   border-color: #00253F;
@@ -63,7 +47,6 @@
   align-items: center;
   font-size: calc(5px + 2vmin);
   color: white;
-  height: 100%;
   
 }
 .Projects-footer {
@@ -77,13 +60,7 @@
   border-top-width: 0;
   border-bottom-width: 0;
   background-color: #0489A4;
-  height:5%;
-}
-.Projects-link {
-  
-  font-size: calc(2vmin);
-  margin-left: 1vw;
-  text-align: left;
+  height: 50vh;
 }
 .Projects-Footer-Statement{
   text-align: center;
