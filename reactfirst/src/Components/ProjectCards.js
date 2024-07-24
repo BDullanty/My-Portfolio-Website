@@ -7,31 +7,43 @@ import Typography from '@mui/material/Typography';
 
 export function GridOfProjectCards(){
   return(
-    <Grid  container spacing = {2} className="CardLinkGrid">
+    <Grid  container spacing = {2} className="ProjectCardBackground">
         <Grid item>
-          <WeatherProjectCard/>
+          <PortfolioWebsiteProjectCard/>
+          
         </Grid>
+        <Grid item>
+        <OhHellProjectCard/>
         
+        </Grid>
+        <Grid item>
+
+        < WeatherAssistantToolProjectCard/>
+        </Grid>
     </Grid>
     )
 }
 
  
-export function WeatherProjectCard() { 
+export function PortfolioWebsiteProjectCard() { 
     return (
-            <Card sx={{ minWidth: 275 }} className="ClassCard">
+            <Card sx={{ minWidth: 275 }} className="ProjectCard">
               <CardContent>
-                <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom align={"center"}>
-                 Title
+                <Typography sx={{ fontSize: 34 }} color="text.secondary" gutterBottom align={"center"}>
+                Portfolio Website
                 </Typography>
                 <Typography variant="h5" component="div" align={"center"}>
-                T
+                
                 </Typography>
                 <Typography sx={{ mb: 1.5 }} color="text.secondary" align={"center"}>
-                  Link here
+                  React, JavaScript, HTML, CSS, AWSf  
                 </Typography>
                 <Typography variant="body2" align={"center"}>
-                  Project
+                Focus on React, JavaScript, HTML, CSS, and AWS Cloud Services for hosting. All components of this website was created by myself using available libraries. Feel free to check out my progression on creating the website using the below Github Link
+                </Typography>
+                <br/>
+                <Typography sx={{ mb: 1.5 }} color="text.secondary" align={"center"}>
+                  Github Link
                 </Typography>
               </CardContent>
               <CardActions>
@@ -40,4 +52,65 @@ export function WeatherProjectCard() {
         
     )
     
+}
+export function OhHellProjectCard() { 
+  return (
+          <Card sx={{ minWidth: 275 }} className="ProjectCard">
+            <CardContent>
+              <Typography sx={{ fontSize: 34 }} color="text.secondary" gutterBottom align={"center"}>
+              Oh Hell
+              </Typography>
+
+              <Typography sx={{ mb: 1.5 }} color="text.secondary" align={"center"}>
+                Java
+              </Typography>
+              <Typography variant="body2" align={"center"}>
+              Focus Java using OOP and SOLID principles all components of this website was created by myself using available libraries. 
+              Feel free to use the program by using the source code given below using the Github Link.
+              </Typography>
+              <br/>
+              <Typography sx={{ mb: 1.5 }} color="text.secondary" align={"center"}>
+                Github Link
+              </Typography>
+              <Typography sx={{ mb: 1.5 }} color="text.secondary" align={"center"}>
+                Website Link
+              </Typography>
+            </CardContent>
+            <CardActions>
+            </CardActions>
+          </Card>
+      
+  )
+  
+}
+export function WeatherAssistantToolProjectCard() { 
+  return (
+          <Card sx={{ minWidth: 275 }} className="ProjectCard">
+            <CardContent>
+              <Typography sx={{ fontSize: 34 }} color="text.secondary" gutterBottom align={"center"}>
+              Weather Assistant Tool
+              </Typography>
+              <Typography variant="h5" component="div" align={"center"}>
+              
+              </Typography>
+              <Typography sx={{ mb: 1.5 }} color="text.secondary" align={"center"}>
+              Vue, Typescript, CSS, HTML, Firebase
+              </Typography>
+              <Typography variant="body2" align={"center"}>
+              A group project with a focus on Vue, TypeScript, JavaScript, HTML, CSS, and FireBase hosting. Used several api's such as device GPS, Weather API's, and Locational api's to create a visual weather app. Feel free to see our groups github link below or check out the live website above
+              </Typography>
+              <br/>
+              <Typography sx={{ mb: 1.5 }} color="text.secondary" align={"center"}>
+                Github Link
+              </Typography>
+              <Typography sx={{ mb: 1.5 }} color="text.secondary" align={"center"}>
+                Website Link
+              </Typography>
+            </CardContent>
+            <CardActions>
+            </CardActions>
+          </Card>
+      
+  )
+  
 }
