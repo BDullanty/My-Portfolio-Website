@@ -6,14 +6,11 @@
     text-align: center;
     background-color: #0489A4;
     max-width: 100%;
- 
-    
 }
 
 .ClassCard {
     width: 20vw;
     padding: 1vw;
-    height: 30vh;
     flex: auto;
     background-color: #00253F;
     justify-content: center;

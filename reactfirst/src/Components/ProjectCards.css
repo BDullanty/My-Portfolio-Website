@@ -11,7 +11,7 @@
 
 .ProjectCard {
     width: 20vw;
-    height: 39vh;
+    height: 100%;
     flex: auto;
     background-color: #00253F;
     justify-content: center;
