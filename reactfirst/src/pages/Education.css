@@ -37,7 +37,8 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  margin-bottom: -1vh;
+  margin-top:-10vh;
+  margin-bottom: -5vh;
 }
 
 .Education-body {
