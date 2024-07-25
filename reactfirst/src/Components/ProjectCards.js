@@ -32,7 +32,7 @@ export function GridOfProjectCards(){
  
 export function PortfolioWebsiteProjectCard() { 
     return (
-            <Card sx={{ minWidth: 275 }} className="ProjectCard">
+            <Card sx={{ minWidth: 275, boxShadow: 5}} className="ProjectCard">
               <CardContent>
                 <Typography sx={{ fontSize: 34 }} color="text.secondary" gutterBottom align={"center"}>
                 Portfolio Website
@@ -60,7 +60,7 @@ export function PortfolioWebsiteProjectCard() {
 }
 export function OhHellProjectCard() { 
   return (
-          <Card sx={{ minWidth: 275 }} className="ProjectCard">
+          <Card sx={{ minWidth: 275 , boxShadow: 5}} className="ProjectCard">
             <CardContent>
               <Typography sx={{ fontSize: 34 }} color="text.secondary" gutterBottom align={"center"}>
               Oh Hell
@@ -90,7 +90,7 @@ export function OhHellProjectCard() {
 }
 export function WeatherAssistantToolProjectCard() { 
   return (
-          <Card sx={{ minWidth: 275 }} className="ProjectCard">
+          <Card sx={{ minWidth: 275 , boxShadow: 5}} className="ProjectCard">
             <CardContent>
               <Typography sx={{ fontSize: 34 }} color="text.secondary" gutterBottom align={"center"}>
               Weather Assistant Tool
