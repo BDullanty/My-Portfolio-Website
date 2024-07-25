@@ -28,5 +28,7 @@
     justify-content: center;
 }
 .CardLinkGrid{
-    margin-top: -5vh;
+    padding: 3vh;
+    padding-top:0vh;
+    justify-content: center;
 }
