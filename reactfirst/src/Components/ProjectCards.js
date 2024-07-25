@@ -20,10 +20,10 @@ export function GridOfProjectCards(){
         < WeatherAssistantToolProjectCard/>
         </Grid>
         <Grid item>
-        < WeatherAssistantToolProjectCard/>
+        < ServerProjectCard/>
         </Grid>
         <Grid item>
-        < WeatherAssistantToolProjectCard/>
+        <DynamicDropRateProjectCard/>
         </Grid>
     </Grid>
     )
@@ -43,7 +43,7 @@ export function PortfolioWebsiteProjectCard() {
                 
                 </Typography>
                 <Typography sx={{ mb: 1.5 }} color="text.secondary" align={"center"}>
-                  React, JavaScript, HTML, CSS, AWSf  
+                  React, JavaScript, HTML, CSS, AWS
                 </Typography>
                 <Typography variant="body2" align={"center"}>
                 Focus on React, JavaScript, HTML, CSS, and AWS Cloud Services for hosting. All components of this website was created by myself using available libraries. Feel free to check out my progression on creating the website using the below Github Link
@@ -74,7 +74,7 @@ export function OhHellProjectCard() {
                 Java
               </Typography>
               <Typography variant="body2" align={"center"}>
-              Focus Java using OOP and SOLID principles all components of this website was created by myself using available libraries. 
+              A text based card game. Written in Java using OOP and SOLID principles . Integrates cards, players, AI, hands, tables, and a game board.
               Feel free to use the program by using the source code given below using the Github Link.
               </Typography>
               <br/>
@@ -108,7 +108,74 @@ export function WeatherAssistantToolProjectCard() {
               Vue, Typescript, CSS, HTML, Firebase
               </Typography>
               <Typography variant="body2" align={"center"}>
-              A group project with a focus on Vue, TypeScript, JavaScript, HTML, CSS, and FireBase hosting. Used several api's such as device GPS, Weather API's, and Locational api's to create a visual weather app. Feel free to see our groups github link below or check out the live website above
+              A Weather app from a group project with a focus on Vue, TypeScript, JavaScript, HTML, CSS, and FireBase hosting. Used several api's such as device GPS, Weather API's, and Locational api's to create a visual weather app. Feel free to see our groups github link below or check out the live website above
+              </Typography>
+              <br/>
+              <Typography sx={{ mb: 1.5 }} color="text.secondary" align={"center"}>
+                Github Link
+              </Typography>
+              <Typography sx={{ mb: 1.5 }} color="text.secondary" align={"center"}>
+                Website Link
+              </Typography>
+            </CardContent>
+            <CardActions>
+            </CardActions>
+          </Card>
+      
+  )
+  
+}
+
+export function ServerProjectCard() { 
+  return (
+    <Card className="ProjectCard" sx={{ minWidth: 275, boxShadow: 5,
+      ':hover': {
+    boxShadow: 20}}}>
+            <CardContent>
+              <Typography sx={{ fontSize: 34 }} color="text.secondary" gutterBottom align={"center"}>
+              Public Gaming Servers
+              </Typography>
+              <Typography variant="h5" component="div" align={"center"}>
+              
+              </Typography>
+              <Typography sx={{ mb: 1.5 }} color="text.secondary" align={"center"}>
+              Linux, SQL, MariaDB, Plugin, Scripting, Teamwork
+              </Typography>
+              <Typography variant="body2" align={"center"}>
+              A Proxy based group of connected servers that link to provide several gaming experiences to over 20,000 unique players for over 5 years. 
+              </Typography>
+              <br/>
+              <Typography sx={{ mb: 1.5 }} color="text.secondary" align={"center"}>
+                Github Link
+              </Typography>
+              <Typography sx={{ mb: 1.5 }} color="text.secondary" align={"center"}>
+                Website Link
+              </Typography>
+            </CardContent>
+            <CardActions>
+            </CardActions>
+          </Card>
+      
+  )
+  
+}
+export function DynamicDropRateProjectCard() { 
+  return (
+    <Card className="ProjectCard" sx={{ minWidth: 275, boxShadow: 5,
+      ':hover': {
+    boxShadow: 20}}}>
+            <CardContent>
+              <Typography sx={{ fontSize: 34 }} color="text.secondary" gutterBottom align={"center"}>
+              Dynamic Drop Rate Calculator
+              </Typography>
+              <Typography variant="h5" component="div" align={"center"}>
+              
+              </Typography>
+              <Typography sx={{ mb: 1.5 }} color="text.secondary" align={"center"}>
+              Statistics, Python, Django
+              </Typography>
+              <Typography variant="body2" align={"center"}>
+              Software to help automate analysis for item drop odds, to help us set drop rates. 
               </Typography>
               <br/>
               <Typography sx={{ mb: 1.5 }} color="text.secondary" align={"center"}>
