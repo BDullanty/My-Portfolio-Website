@@ -4,13 +4,12 @@ import './HomePage.css';
 import { GridOfLinkCards,GithubLinkCard,  LinkedInLinkCard } from '../Components/LinkCards';
 import {ButtonAppBar} from '../Components/AppBar'
 import { Button } from '@mui/material';
+import {Paper} from '@mui/material';
 export const HomePage = () => {
   return (
     <div className="HomePage">
        <ButtonAppBar/>
        <header className='HomePage-header'>
-
-     
        <h1 className="Homepage-Title">
          Welcome to Brady Dullanty's Porfolio Website.
         </h1>
@@ -19,22 +18,26 @@ export const HomePage = () => {
       <body className='HomePage-body'> 
        
    
-        <br/>
+        
+    
       <h4 className="HomePage-Mission-Statement-title">Mission Statement:</h4>
         <h6 className="HomePage-Mission-Statement">
-          I am looking for an ethical company for which I can work as an entry level software developer.
+          I am looking for an ethical company for which I can work as a software developer on the entry/intern level.
         </h6>
         <br/>
+       
+        <br/>
+        <Paper elevation={10}>
         <h4 className="HomePage-Mission-Statement-title">About Me:</h4>
         
         <h6 className="HomePage-Mission-Statement">
-          I am a current student with senior standing at Eastern Washington unviversity. My goal is to prosper as a Software Engineer under the guidance of a company. 
-          <br/><br/>I have taken a multitude of course with a focus on software development, algorithms, networks, and cybersecurity.
-          <br/><br/>I have a good understanding of Linux clients and servers as well, stemming from several networking classes and personal projects.
+          I am a current student with senior standing at Eastern Washington University in Spokane Washington. 
+          <br/><br/>I have taken a multitude of courses with a focus on specific programming languages, software development, algorithms, networks, and cybersecurity.
+          <br/><br/>I have a good understanding of Linux clients and servers, stemming from several networking classes and personal projects.
           <br/><br/>I have a always had a drive to solve problems, and I find myself passionate to learn new tools and skills on my journey of being a Software Developer.
-          <br/><br/>I am an experienced worker, having worked in several industries including the Light and Sound, Food, and Medical. From this experience I have refined my personal and de-escalation skils.
           
         </h6>
+        </Paper>
         <br/>
         <h4 className='ExternalSites-title'>External Sites:</h4>
         <br/>
