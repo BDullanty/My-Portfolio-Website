@@ -63,7 +63,9 @@ export function GridOfEducationCards(){
 
 export function Class210() { 
     return (
-            <Card sx={{ minWidth: 275, boxShadow:3}} className="ClassCard">
+            <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3,
+              ':hover': {
+            boxShadow: 20,}}}>
               <CardContent>
                 <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
                  CSCD210
@@ -80,6 +82,7 @@ export function Class210() {
                 </Typography>
               </CardContent>
               <CardActions>
+                
                 <Button size="small">Learn More</Button>
               </CardActions>
             </Card>
