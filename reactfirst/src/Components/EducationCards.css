@@ -1,5 +1,4 @@
 @import "./Themes.css";
-
 .ClassCardBackground {
     display: flex;
     flex-wrap: nowrap;
@@ -7,12 +6,12 @@
     justify-content: center;
     text-align: center;
     background-color: var(--primary-color);
-    max-width: 100%;
+    width: 100%;
 }
 
 .ClassCard {
     width: 20vw;
-    padding: 1vw;
+    height: 100%;
     flex: auto;
     background-color: var(--primary-color);
     justify-content: center;

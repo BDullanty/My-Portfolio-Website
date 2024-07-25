@@ -17,7 +17,7 @@
     background-color: var(--primary-color);
     justify-content: center;
     align-items: center;
-    color: white;
+    color: var(--primary-text-color);
     }
 
 .p {
