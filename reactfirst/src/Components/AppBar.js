@@ -7,11 +7,12 @@ import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu'
 import logo from '../images/HomePage-logo.jpg';
+import './AppBar.css';
 export function ButtonAppBar() {
 
   return (
   
-      <AppBar  >
+      <AppBar position='sticky' color='primary' >
         <Toolbar >
           <IconButton
             size="small"
