@@ -1,4 +1,4 @@
-@import "./Themes.css";
+@import "../Components/Themes.css";
 .Education {
   text-align: center;
   box-sizing: border-box;

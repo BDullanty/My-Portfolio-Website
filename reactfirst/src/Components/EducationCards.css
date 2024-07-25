@@ -1,10 +1,12 @@
+@import "./Themes.css";
+
 .ClassCardBackground {
     display: flex;
     flex-wrap: nowrap;
     overflow: hidden;
     justify-content: center;
     text-align: center;
-    background-color: #0489A4;
+    background-color: var(--primary-color);
     max-width: 100%;
 }
 
@@ -12,11 +14,12 @@
     width: 20vw;
     padding: 1vw;
     flex: auto;
-    background-color: #00253F;
+    background-color: var(--primary-color);
     justify-content: center;
     align-items: center;
-    color: white;
-    }
+    color: var(--primary-text-color);
+     
+}
 
 .p {
     white-space: normal;
