@@ -12,7 +12,7 @@ export function ButtonAppBar() {
 
   return (
   
-      <AppBar position='sticky' color='primary' >
+      <AppBar position='relative' color='primary' >
         <Toolbar >
           <IconButton
             size="small"
