@@ -1,0 +1,18 @@
+.Footer{
+    border-style: solid;
+    border-color: var(--primary-color);
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    border-right-width: 7vw;
+    border-left-width: 7vw;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    background-color: var(--secondary-color);
+  }
+  .Footer-Statement{
+    text-align: center;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    font-size: calc(5px + 1vmin);
+  }
