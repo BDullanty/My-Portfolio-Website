@@ -3,7 +3,7 @@ import { PageFooter } from "../Components/footer";
 import './HomePage.css';
 import { GridOfLinkCards,GithubLinkCard,  LinkedInLinkCard } from '../Components/LinkCards';
 import {ButtonAppBar} from '../Components/AppBar'
-import { Button } from '@mui/material';
+import { Button, Tab } from '@mui/material';
 import {Paper} from '@mui/material';
 export const HomePage = () => {
   return (
@@ -12,17 +12,19 @@ export const HomePage = () => {
        <ButtonAppBar/>
       
        <header className='HomePage-header'>
-       <Paper elevation={20} className='HomepageOuterPaper'>
+   
           <h1 className="Homepage-Title">
-          Welcome to Brady Dullanty's Porfolio Website.
+          Welcome! I'm Brady,
+          <br/>
+           A Software Developer
           </h1>
-          </Paper>
+          <h6 className="HomePage-Mission-Statement">Feel free to browse around and learn more about my journey.</h6>
+ 
        </header>
 
       <body className='HomePage-body'> 
       
-        <Paper elevation={20} className='HomepageOuterPaper'>
-            <Paper elevation={2} className='HomepageInnerPaper'>
+            <Paper elevation={10} className='HomepageInnerPaper'>
                 <h4 className="HomePage-Mission-Statement-title">Mission Statement:</h4>
                 <h6 className="HomePage-Mission-Statement">
                   I am looking for an ethical company for which I can work as a software developer on the entry/intern level.
@@ -32,7 +34,7 @@ export const HomePage = () => {
               
             </Paper>
             
-            <Paper elevation={2} className='HomepageInnerPaper'>
+            <Paper elevation={10} className='HomepageInnerPaper'>
               <h4 className="HomePage-Mission-Statement-title">About Me:</h4>
               
               <h6 className="HomePage-Mission-Statement">
@@ -43,7 +45,7 @@ export const HomePage = () => {
                 
               </h6>
             </Paper>
-            <Paper elevation={2} className='HomepageInnerPaper-small'>
+            <Paper elevation={10} className='HomepageInnerPaper-small'>
                 <br/>
                 <h4 className='ExternalSites-title'>External Sites:</h4>
                 <br/>
@@ -51,8 +53,6 @@ export const HomePage = () => {
           
           </Paper>
 
-
-        </Paper>
         <br/>
       </body>
      

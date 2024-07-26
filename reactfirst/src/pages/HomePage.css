@@ -23,9 +23,9 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: var(--primary-text-color);
-  padding: 0vh;
+  
+  padding: 3vh;
   margin-top: 0vh;
-  padding: 7vh;
 }
 
 
@@ -68,7 +68,6 @@
   align-items: center;
   font-size: calc(5px + 2vmin);
   color: var(--primary-text-color);
-  padding: 7vh;
 }
 .HomepageInnerPaper{
   width: 50vw;
@@ -80,13 +79,20 @@
   overflow: hidden;
 }
 .HomepageOuterPaper{
-  width: 75vw;
-  margin: 5vh;
+  margin: 0vh;
   align-items: center;
   display: flex;
   flex-direction: column;
   margin-bottom: 0;
   vertical-align: center;
-  padding: 5vh;
-  margin: 0vh;
+}
+.HomepageTitlePaper{
+  width: 40vw;
+  height: 100%;
+  align-items: top;
+  vertical-align: top;
+  padding: 0vh;
+  margin-bottom: 2vh;
+  margin-top: 1vh;
+  padding-bottom: 1vh;
 }
