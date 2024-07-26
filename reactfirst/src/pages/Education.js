@@ -2,6 +2,7 @@ import {ButtonAppBar} from "../Components/AppBar";
 import './Education.css';
 import '../Components/EducationCards';
 import { GridOfEducationCards } from "../Components/EducationCards";
+import { PageFooter } from "../Components/footer";
 export const Education = () => {
   return (
     <div classname="Education">
@@ -13,10 +14,7 @@ export const Education = () => {
       <body className='Education-body'>
         <GridOfEducationCards/>
       </body >
-      <footer className="Education-footer">
-      <h6 className="Education-Footer-Statement">
-        Website created by Brady Dullanty using React, hosted using AWS</h6>
-      </footer>
+      <PageFooter/>
     </div>
   )
 }

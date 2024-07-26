@@ -1,4 +1,5 @@
 import {ButtonAppBar} from "../Components/AppBar";
+import { PageFooter } from "../Components/footer";
 import Paper from '@mui/material/Paper';
 import './HireMe.css';
 import '../Components/LinkCards';
@@ -27,10 +28,7 @@ export const HireMe = () => {
         <Paper elevation={3} />
       </body >
       
-      <footer className="HireMe-footer">
-      <h6 className="HireMe-Footer-Statement">
-        Website created by Brady Dullanty using React, hosted using AWS</h6>
-      </footer>
+      <PageFooter/>
     </div>
   )
 }

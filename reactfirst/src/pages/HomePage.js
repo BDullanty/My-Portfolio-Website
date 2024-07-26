@@ -1,5 +1,5 @@
 import logo from '../images/HomePage-logo.jpg';
-
+import { PageFooter } from "../Components/footer";
 import './HomePage.css';
 import { GridOfLinkCards,GithubLinkCard,  LinkedInLinkCard } from '../Components/LinkCards';
 import {ButtonAppBar} from '../Components/AppBar'
@@ -45,9 +45,7 @@ export const HomePage = () => {
        
        
       </body>
-      <footer className="HomePage-footer">
-         <h6 className="HomePage-Footer-Statement"> Website created by Brady Dullanty using React, hosted using AWS</h6>
-      </footer>
+      <PageFooter/>
 
     </div>
   );

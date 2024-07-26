@@ -2,7 +2,7 @@ import {ButtonAppBar} from "../Components/AppBar";
 import '../Components/ProjectCards.js';
 import { GridOfProjectCards } from "../Components/ProjectCards.js";
 import './Projects.css';
-
+import { PageFooter } from "../Components/footer";
 export const Projects = () => {
   return (
     <div classname="Projects">
@@ -14,12 +14,7 @@ export const Projects = () => {
       <body className='Projects-body'>
         <GridOfProjectCards/>
       </body >
-      <footer className="Projects-footer">
-         <h6 className="Projects-Footer-Statement">
-           Website created by Brady Dullanty using React, hosted using AWS
-        </h6>
-        </footer>
-     
+     <PageFooter/>
     </div>
   )
 }
