@@ -12,16 +12,17 @@ export const HomePage = () => {
        <ButtonAppBar/>
       
        <header className='HomePage-header'>
-       
+       <Paper elevation={20} className='HomepageOuterPaper'>
           <h1 className="Homepage-Title">
           Welcome to Brady Dullanty's Porfolio Website.
           </h1>
+          </Paper>
        </header>
 
       <body className='HomePage-body'> 
       
         <Paper elevation={20} className='HomepageOuterPaper'>
-            <Paper elevation={1} className='HomepageInnerPaper'>
+            <Paper elevation={2} className='HomepageInnerPaper'>
                 <h4 className="HomePage-Mission-Statement-title">Mission Statement:</h4>
                 <h6 className="HomePage-Mission-Statement">
                   I am looking for an ethical company for which I can work as a software developer on the entry/intern level.
@@ -31,7 +32,7 @@ export const HomePage = () => {
               
             </Paper>
             
-            <Paper elevation={1} className='HomepageInnerPaper'>
+            <Paper elevation={2} className='HomepageInnerPaper'>
               <h4 className="HomePage-Mission-Statement-title">About Me:</h4>
               
               <h6 className="HomePage-Mission-Statement">
@@ -42,7 +43,7 @@ export const HomePage = () => {
                 
               </h6>
             </Paper>
-            <Paper elevation={1} className='HomepageInnerPaper-small'>
+            <Paper elevation={2} className='HomepageInnerPaper-small'>
                 <br/>
                 <h4 className='ExternalSites-title'>External Sites:</h4>
                 <br/>
