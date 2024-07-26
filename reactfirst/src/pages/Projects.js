@@ -9,9 +9,15 @@ export const Projects = () => {
       <ButtonAppBar/>
       <header className="Projects-header">
 
-      <h1 className="Projects-Title">Below is a list of projects I have on github.</h1>
+      <h1 className="Projects-Title">Projects</h1>
+      <br/>
+      <h5 className="Project-Mission-Statement">Feel free to click on each to view source code.</h5>
+    
       </header>
       <body className='Projects-body'>
+        <br/>
+        
+        <br/>
         <GridOfProjectCards/>
       </body >
      <PageFooter/>

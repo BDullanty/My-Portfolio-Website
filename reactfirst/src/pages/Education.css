@@ -31,17 +31,16 @@
   border-top-width: 0;
   border-bottom-width: 0;
   background-color: var(--secondary-color);
-  padding-top: 7vh;
-  padding: 7vh;
-  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: var(--primary-text-color);
-  margin-top:-10vh;
-  margin-bottom: -5vh;
+  
+  padding: 3vh;
+  margin-top: 0vh;
+
 }
 
 .Education-body {
@@ -59,5 +58,6 @@
   justify-content:start;
   font-size: calc(5px + 2vmin);
   color: var(--primary-text-color);
+  padding: 5vh;
   
 }
