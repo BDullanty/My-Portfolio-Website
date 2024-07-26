@@ -31,7 +31,9 @@ export function GridOfLinkCards(){
 
 export function GithubLinkCard() { 
     return (
-        <Card >
+        <Card sx={{
+            ':hover': {
+          boxShadow: 20}}}>
                <CardMedia component = "img" image={gitLogo} sx={{padding: ".5vh", height:"5vh",width:"10vh",objectFit:"contain"}}
                onClick={() => {
                 window.open("https://github.com/bdullanty","_blank")
@@ -45,7 +47,9 @@ export function GithubLinkCard() {
 
 export function LinkedInLinkCard() { 
     return (
-        <Card>
+        <Card sx={{
+            ':hover': {
+          boxShadow: 20}}}>
         
             <CardMedia component = "img" image={linkedInLogo} 
             sx={{padding: ".5vh", height:"5vh",width:"10vh",objectFit:"contain"}}
@@ -60,7 +64,9 @@ export function LinkedInLinkCard() {
 
 export function HackerRankLinkCard() { 
     return (
-        <Card>
+        <Card sx={{
+            ':hover': {
+          boxShadow: 20}}}>
         
             <CardMedia component = "img" image={hackerrankLogo} 
             sx={{padding: ".5vh", height:"5vh",width:"10vh",objectFit:"contain"}}
