@@ -3,6 +3,7 @@
   text-align: center;
   box-sizing: border-box;
   background: black;
+  height: 100vh;
   
 }
 .HireMe-header {
@@ -26,36 +27,6 @@
 }
 
 
-.HireMe-Paper-title{
-  width: 70%;
-  height: 100%;
-}
-.HireMe-Paper-titletext{
-  
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-.HireMe-Paper-content{
-  min-height: 100%;
-  width: 70%;
-}
-.HireMe-MediaTitle{
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  box-sizing: border-box;
-  padding: 0vh;
-  
-}
-.HireMe-ContentText{
-  text-align: center;
-  margin-top: 0vh;
-  margin-bottom: 0px;
-  margin-left: 7vw;
-  margin-right: 7vw;
-}
-
 .HireMe-body {
  
   box-sizing: border-box;
@@ -67,12 +38,41 @@
   border-bottom-width: 0;
   margin-top: vh;
   background-color: var(--secondary-color);
-  height: 50vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content:start;
   font-size: calc(5px + 2vmin);
   color: white;
+  
+}
+
+.HireMe-Paper-titletext{
+  font-size: calc(3px + 3vmin);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 0;
+}
+.HireMe-Paper-content{
+  height: 100%;
+  width: 70%;
+}
+
+.HireMe-ContentText{
+  text-align: center;
+  margin-top: 0vh;
+  margin-bottom: 0px;
+  height: 12%;
+  font-size: calc(3px + 2vmin);
+}
+.HireMe-MediaTitle{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0vh;
+  margin-bottom: 0px;
+  font-size: calc(3px + 2vmin);
   
 }

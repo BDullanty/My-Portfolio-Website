@@ -17,9 +17,11 @@ export const HireMe = () => {
       <body className='HireMe-body'>
         <Paper elevation={20} className="HireMe-Paper-content">
         <h4 className="HireMe-Paper-titletext">Contact Information</h4>
-          <p className="HireMe-ContentText">Prefered contact is by email.</p>
-          <p className="HireMe-ContentText">Email: Bdullanty@gmail.com</p>
-
+          <p className="HireMe-ContentText">(Prefered contact is by email.)</p>
+          <br/>
+          <p className="HireMe-ContentText">Personal Email: Bdullanty@gmail.com</p>
+          <p className="HireMe-ContentText">School Email: Bdullanty@ewu.edu</p>
+          <br/>
           <p className="HireMe-ContentText">Phone: 775 *** ****</p>
           <h5 className="HireMe-MediaTitle">SocialMedia:</h5>
           <br/>
