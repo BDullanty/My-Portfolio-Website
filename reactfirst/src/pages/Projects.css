@@ -29,7 +29,8 @@
 }
 
 .Projects-Title{
-  padding-top: 15%;
+  padding-top: 0vh;
+  height: 0;
   font-size: calc(10px + 5vmin);
   vertical-align: center;
   text-align: center;
@@ -70,25 +71,4 @@
   font-size: calc(5px + 2vmin);
   color: var(--primary-text-color);
   
-}
-.Projects-footer {
-  border-style: solid;
-  border-color: var(--primary-color);
-  display:flex;
-  align-items: center;
-  flex-direction: column;
-  border-right-width: 7vw;
-  border-left-width: 7vw;
-  border-top-width: 0;
-  border-bottom-width: 0;
-  background-color: var(--secondary-color);
-  height: 50vh;
-  color: var(--primary-text-color);
-}
-.Projects-Footer-Statement{
-  text-align: center;
-  margin-left: 7vw;
-  margin-right: 7vw;
-  margin: 0%;
-  font-size: calc(5px + 1vmin);
 }

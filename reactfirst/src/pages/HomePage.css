@@ -87,39 +87,3 @@
   color: var(--primary-text-color);
   
 }
-.HomePage-footer {
-  border-style: solid;
-  border-color: var(--primary-color);
-  display:flex;
-  align-items: center;
-  flex-direction: column;
-  border-right-width: 7vw;
-  border-left-width: 7vw;
-  border-top-width: 0;
-  border-bottom-width: 0;
-  background-color: var(--secondary-color);
-  height: 100vh;
-  color: var(--primary-text-color);
-}
-.HomePage-link {
-  
-  font-size: calc(2vmin);
-  margin-left: 1vw;
-  text-align: left;
-}
-.HomePage-Footer-Statement{
-  text-align: center;
-  margin-left: 7vw;
-  margin-right: 7vw;
-  margin: 0%;
-  font-size: calc(5px + 1vmin);
-
-}
-.ExternalSites-title{
-  text-align: center;
-  margin-left: 7vw;
-  margin-right: 7vw;
-  margin: 1%;
-  font-size: calc(5px + 4vmin);
-
-}
