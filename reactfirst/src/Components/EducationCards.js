@@ -58,6 +58,15 @@ export function GridOfEducationCards(){
         <Grid item>
         <Class350/>
         </Grid>
+        <Grid item>
+        <Class429/>
+        </Grid>
+        <Grid item>
+        <Class434/>
+        </Grid>
+        <Grid item>
+        <Class437/>
+        </Grid>
     </Grid>
 
   );
@@ -274,8 +283,30 @@ export function Class303() {
                 A
               </Typography>
               <Typography variant="body2">
-              This course covered fundamentals of computing security, including threat types, how computers become infected with viruses and malware, how to avoid viruses and malware, and how to secure your computers and information stored on them. Topics included operating system security, email security, internet security, virus and spyware scanners, browser tools, firewalls and other defensive techniques. The course includded hands-on practice with security tools and techniques.
+              This course covered fundamentals of computing security, including threat types, how computers become infected with viruses and malware, how to avoid viruses and malware, and how to secure your computers and information stored on them. Topics included operating system security, email security, internet security, virus and spyware scanners, browser tools, firewalls and other defensive techniques. The course included hands-on practice with security tools and techniques.
                </Typography>
+            </CardContent>
+          </Card>
+  )
+}
+export function Class305() { 
+  return (
+          <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3,
+            ':hover': {
+          boxShadow: 20,}}}>
+            <CardContent>
+              <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+               CSCD305
+              </Typography>
+              <Typography variant="h5" component="div">
+              C++ Programming
+              </Typography>
+              <Typography sx={{ mb: 1.5 }} color="text.secondary">
+                A
+              </Typography>
+              <Typography variant="body2">
+              This course taught the C++ programming language. Topics included basic syntax, pointers, memory management, classes, inheritance and polymorphism, exception handling, standard template library usage, namespaces, memory management, and graphical user interface programming.
+              </Typography>
             </CardContent>
           </Card>
   )
@@ -391,6 +422,73 @@ export function Class350() {
               <Typography variant="body2">
               This course covers formal approaches and tools for conceiving, understanding, analyzing, designing,building, testing, deploying, documenting and maintaining large software systems. Topics may include software lifecycle models; project and team management; verification and validation techniques; legal and ethical issues; practical development and application of skills in critical thinking, communication and professionalism. A major team-based software development project was required.
               </Typography>
+            </CardContent>
+          </Card>
+  )
+}
+export function Class429() { 
+  return (
+          <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3,
+            ':hover': {
+          boxShadow: 20,}}}>
+            <CardContent>
+              <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+               CSCD429
+              </Typography>
+              <Typography variant="h5" component="div">
+              Data Mining
+              </Typography>
+              <Typography sx={{ mb: 1.5 }} color="text.secondary">
+                B+
+              </Typography>
+              <Typography variant="body2">
+              This course provided an introduction to the main topics in data mining and knowledge discovery, including data preparation for knowledge discovery, frequent pattern and association mining, and classification and cluster analysis.
+              </Typography>
+            </CardContent>
+          </Card>
+  )
+}
+export function Class434() { 
+  return (
+          <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3,
+            ':hover': {
+          boxShadow: 20,}}}>
+            <CardContent>
+              <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+               CSCD434
+              </Typography>
+              <Typography variant="h5" component="div">
+              Network Security
+              </Typography>
+              <Typography sx={{ mb: 1.5 }} color="text.secondary">
+                A
+              </Typography>
+              <Typography variant="body2">
+              This course explored practical topics in network security. Topics included policy and mechanism, malicious code, intrusion detection, prevention and response, cryptographic and protocols for privacy and integrity. This course emphasized the trade-offs among risks of misuse, cost of prevention and social issues. Concepts were implemented in programming assignments and comprehensive projects.
+              </Typography>
+            </CardContent>
+          </Card>
+  )
+}
+
+export function Class437() { 
+  return (
+          <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3,
+            ':hover': {
+          boxShadow: 20,}}}>
+            <CardContent>
+              <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+               CSCD437
+              </Typography>
+              <Typography variant="h5" component="div">
+              Secure Coding
+              </Typography>
+              <Typography sx={{ mb: 1.5 }} color="text.secondary">
+                A
+              </Typography>
+              <Typography variant="body2">
+              This course introduced a variety of topics of concern to programmers when writing code. It examined characteristics of secure programs and the ability to implement programs that are free from vulnerabilities, including evaluating software, understanding mechanisms for testing software for vulnerabilities, and understanding specific vulnerabilities such as buffer overflow. Java, C and C++ code were written and examined.
+             </Typography>
             </CardContent>
           </Card>
   )

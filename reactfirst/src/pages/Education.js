@@ -8,7 +8,7 @@ export const Education = () => {
       <ButtonAppBar/>
       <header className="Education-header">
       <h1 className="Education-Mission-Statement-title"> Summary</h1>
-      <h5 className="Education-Mission-Statement">I have attended over x amount of Computer Science and Math classes at Eastern Washington University. Feel free to scroll through them below.</h5>
+      <h5 className="Education-Mission-Statement">I have attended over twenty-three Computer Science and Math classes at Eastern Washington University. Feel free to scroll through them below.</h5>
       </header>
       <body className='Education-body'>
         <GridOfEducationCards/>
