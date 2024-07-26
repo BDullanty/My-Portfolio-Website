@@ -7,7 +7,7 @@
   flex-direction: column;
   height: 100vh;
 }
-.HomePage-header {
+.HomePage-header{
   text-align: center;
   box-sizing: border-box;
   border-style: solid;
@@ -33,6 +33,7 @@
   padding-top: 5vh;
   font-size: calc(10px + 5vmin);
   vertical-align: bottom;
+
 }
 
 .HomePage-Mission-Statement-title{
@@ -86,4 +87,21 @@
   font-size: calc(5px + 2vmin);
   color: var(--primary-text-color);
   
+}
+.HomepageInnerPaper{
+  width: 50vw;
+  margin: 5vh;
+  overflow: hidden;
+}
+.HomepageInnerPaper-small{
+  margin: 5vh;
+  overflow: hidden;
+}
+.HomepageOuterPaper{
+  width: 70vw;
+  margin: 5vh;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
 }
