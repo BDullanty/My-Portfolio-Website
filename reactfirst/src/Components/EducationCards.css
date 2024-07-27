@@ -6,7 +6,9 @@
     justify-content: center;
     text-align: center;
     background-color: var(--primary-color);
-    width: 80vw;
+    width: 75vw;
+    padding-top:5vh;
+    padding-bottom:5vh;
 }
 
 .ClassCard {
