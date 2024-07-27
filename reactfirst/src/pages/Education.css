@@ -3,7 +3,7 @@
   text-align: center;
   box-sizing: border-box;
   background: var(--primary-color);
-  height: 100vh;
+  height: 100dvh;
 }
 
 
@@ -43,7 +43,7 @@
 
 }
 
-.Education-body {
+.Education-body{
   box-sizing: border-box;
   border-style: solid;
   border-color: var(--primary-color);

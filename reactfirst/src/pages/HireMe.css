@@ -2,8 +2,9 @@
 .HireMe {
   text-align: center;
   box-sizing: border-box;
-  background: black;
-  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  height: 100dvh;
   
 }
 .HireMe-header {

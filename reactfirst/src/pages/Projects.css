@@ -67,6 +67,7 @@
   border-bottom-width: 0;
   background-color: var(--secondary-color);
   display: flex;
+  flex-grow: 1;
   flex-direction: column;
   align-items: center;
   font-size: calc(5px + 2vmin);
