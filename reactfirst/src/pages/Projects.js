@@ -5,7 +5,7 @@ import './Projects.css';
 import { PageFooter } from "../Components/footer";
 export const Projects = () => {
   return (
-    <div classname="Projects">
+    <div className="Projects">
       <ButtonAppBar/>
       <header className="Projects-header">
 

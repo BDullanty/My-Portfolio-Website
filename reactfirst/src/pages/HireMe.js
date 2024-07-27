@@ -7,7 +7,7 @@ import { GithubLinkCard, GridOfLinkCards, HackerRankLinkCard } from "../Componen
 
 export const HireMe = () => {
   return (
-    <div classname="HireMe">
+    <div className="HireMe">
       <ButtonAppBar/>
       <header className="HireMe-header">
       <h1 className="HireMe-title">Contact Information</h1>
