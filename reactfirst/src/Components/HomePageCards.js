@@ -3,29 +3,41 @@ import "./HomePageCards.css";
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Unstable_Grid2';
 
+
 export function HomePagePageGrid(){
     return(
-        <Grid  container spacing={2}>
-            <Grid item>
-                 <HomePageleftGrid/>
+        <Grid  container spacing={2} justifyContent="center">
+            <Grid item >
+                 <HomePageLeftGrid/>
             </Grid>
-            <Grid item>
-                <HomePageAboutMe/>
+            <Grid item >
+                <HomePageRightGrid/>
             </Grid>
        </Grid>
     )
 }
 
-export function HomePageleftGrid() { 
+export function HomePageLeftGrid() { 
     return(
         <Grid container spacing={2} direction={'column'} >
-            <Grid item>
-
-                    <HomePageMissionStatement/>
+            <Grid item className="HomePageInnerGrid">
+                <HomePageMissionStatement/>
             </Grid>
-             <Grid item>
-                  <HomePageExternalSites/>
+            <Grid item >
+                <HomePageExternalSites/>
+            </Grid>
+
         </Grid>
+    )
+
+}
+export function HomePageRightGrid() { 
+    return(
+        <Grid container spacing={2} direction={'column'} className="HomePageInnerGrid">
+            <Grid item >
+                <HomePageAboutMe/>
+            </Grid>
+  
 
         </Grid>
     )
@@ -52,7 +64,6 @@ export function HomePageAboutMe() {
             ':hover': {
           boxShadow: 15}}}>
         <h4 className="HomePage-Mission-Statement-title">About Me:</h4>
-        
         <h6 className="HomePage-Mission-Statement">
           I am a current student with senior standing at Eastern Washington University in Spokane Washington. 
           <br/><br/>I have taken a multitude of courses with a focus on specific programming languages, software development, algorithms, networks, and cybersecurity.
@@ -62,7 +73,6 @@ export function HomePageAboutMe() {
       </Paper>
     )
 }
-
 export function HomePageExternalSites() { 
     return (
 
