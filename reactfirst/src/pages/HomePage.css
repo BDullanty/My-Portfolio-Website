@@ -36,25 +36,7 @@
 
 }
 
-.HomePage-Mission-Statement-title{
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  box-sizing: border-box;
-  margin: .5vh;
-  font-size: calc(5px + 4vmin)
-  
-}
-.HomePage-Mission-Statement{
-  text-align: center;
-  margin-top: 1%;
-  margin-bottom: 1%;
-  margin-left: 10vw;
-  margin-right: 10vw;
-  font-size: calc(12px + 1vmin);
-}
 .HomePage-body {
-  vertical-align: middle;
   box-sizing: border-box;
   border-style: solid;
   border-color: var(--primary-color);
@@ -68,30 +50,5 @@
   align-items: center;
   font-size: calc(5px + 2vmin);
   color: var(--primary-text-color);
-}
-.HomepageInnerPaper{
-  width: 50vw;
-  margin: 5vh;
-  overflow: hidden;
-}
-.HomepageInnerPaper-small{
-  overflow: hidden;
-}
-.HomepageOuterPaper{
-  margin: 0vh;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 0;
-  vertical-align: center;
-}
-.HomepageTitlePaper{
-  width: 40vw;
-  height: 100%;
-  align-items: top;
-  vertical-align: top;
-  padding: 0vh;
-  margin-bottom: 2vh;
-  margin-top: 1vh;
-  padding-bottom: 1vh;
+  
 }

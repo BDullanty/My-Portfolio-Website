@@ -3,9 +3,8 @@ import gitLogo from"../images/GithubLogo.png";
 import linkedInLogo from "../images/LinkedInLogo.png"; 
 import hackerrankLogo from "../images/HackerRankLogo.png";
 
-import { Button, CardActions, CardMedia } from '@mui/material';
+import { CardMedia } from '@mui/material';
 import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
 import Grid from '@mui/material/Unstable_Grid2';
 
 export function GridOfLinkCards(){
