@@ -1,8 +1,8 @@
 :root{
-  --primary-color: #ffffff;
-  --secondary-color: #ffffff;
-  --primary-text-color: #000000;
-  --secondary-text-color: #ffffff;
-  --card-background-color:#22345f;
-  --card-inner-background-color:#666666;
+  --primary-color: #0d1b2a;
+  --secondary-color: #1b263b;
+  --primary-text-color: #e0e1dd;
+  --secondary-text-color: #e0e1dd;
+  --card-background-color:#415a77;
+  --card-inner-background-color:#e0e1dd;
 }
