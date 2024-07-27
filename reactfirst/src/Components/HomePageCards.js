@@ -34,7 +34,9 @@ export function HomePageleftGrid() {
 
 export function HomePageMissionStatement() { 
     return (
-        <Paper elevation={10} className='HomepageInnerPaper'>
+        <Paper elevation={10} className='HomepageInnerPaper'sx={{
+            ':hover': {
+          boxShadow: 15}}}>
            <h4 className="HomePage-Mission-Statement-title">Mission Statement:</h4>
            <h6 className="HomePage-Mission-Statement">
              I am looking to join a team for an ethical company for which I can assist on the entry/intern level as a software developer.
@@ -46,7 +48,9 @@ export function HomePageMissionStatement() {
 
 export function HomePageAboutMe() { 
     return (
-        <Paper elevation={10} className='HomepageInnerPaper'>
+        <Paper elevation={10} className='HomepageInnerPaper'sx={{
+            ':hover': {
+          boxShadow: 15}}}>
         <h4 className="HomePage-Mission-Statement-title">About Me:</h4>
         
         <h6 className="HomePage-Mission-Statement">
@@ -62,7 +66,9 @@ export function HomePageAboutMe() {
 export function HomePageExternalSites() { 
     return (
 
-              <Paper elevation={10} className='HomepageInnerPaper-small'>
+        <Paper elevation={10} className='HomepageInnerPaper-small'sx={{
+            ':hover': {
+          boxShadow: 15}}}>
               <br/>
               <h4 className='ExternalSites-title'>External Sites:</h4>
               <br/>
