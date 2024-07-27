@@ -16,28 +16,14 @@ export function GridOfEducationCards(){
       {...events}
       ref={ref} // add reference and events to the wrapping div
     >
-        <Grid item>
-        <Class160/>
+              <Grid item>
+        <Class437/>
         </Grid>
         <Grid item>
-        <Class202/>
+        <Class434/>
         </Grid>
+     
         <Grid item>
-        <Class210/>
-        </Grid>
-        <Grid item>
-        <Class211/>
-        </Grid>
-        <Grid item>
-        <Class212/>
-        </Grid>
-        <Grid item>
-        <Class240/>
-        </Grid>
-        <Grid item>
-        <Class260/>
-        </Grid>
-         <Grid item>
         <Class300/>
         </Grid>
         <Grid item>
@@ -62,11 +48,29 @@ export function GridOfEducationCards(){
         <Class429/>
         </Grid>
         <Grid item>
-        <Class434/>
+        <Class210/>
         </Grid>
         <Grid item>
-        <Class437/>
+        <Class211/>
         </Grid>
+        <Grid item>
+        <Class212/>
+        </Grid>
+        <Grid item>
+        <Class240/>
+        </Grid>
+        <Grid item>
+        <Class260/>
+        </Grid>
+
+        <Grid item>
+        <Class202/>
+        </Grid>
+
+        <Grid item>
+        <Class160/>
+        </Grid>
+
     </Grid>
 
   );
@@ -277,7 +281,7 @@ export function Class303() {
                CSCD303
               </Typography>
               <Typography variant="h5" component="div">
-              Computer and information Security
+              Computer and Information Security
               </Typography>
               <Typography sx={{ mb: 1.5 }} color="--secondary-text-color">
                 A
