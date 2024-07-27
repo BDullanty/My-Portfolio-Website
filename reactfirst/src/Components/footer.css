@@ -9,6 +9,7 @@
     border-top-width: 0;
     border-bottom-width: 0;
     background-color: var(--secondary-color);
+    color: var(--primary-text-color)
   }
   .Footer-Statement{
     text-align: center;
