@@ -10,14 +10,13 @@ export const HireMe = () => {
     <div classname="HireMe">
       <ButtonAppBar/>
       <header className="HireMe-header">
-
-        <Paper elevation={3} />
+      <h1 className="HireMe-title">Contact Information</h1>
+      <h5 className="Project-Mission-Statement">(Prefered contact is by email)</h5>
 
       </header>
       <body className='HireMe-body'>
         <Paper elevation={20} className="HireMe-Paper-content">
-        <h4 className="HireMe-Paper-titletext">Contact Information</h4>
-          <p className="HireMe-ContentText">(Prefered contact is by email.)</p>
+
           <br/>
           <p className="HireMe-ContentText">Personal Email: Bdullanty@gmail.com</p>
           <p className="HireMe-ContentText">School Email: Bdullanty@ewu.edu</p>

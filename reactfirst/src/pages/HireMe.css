@@ -16,14 +16,15 @@
   border-top-width: 0;
   border-bottom-width: 0;
   background-color: var(--secondary-color);
-  padding-top: 7vh;
-  height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color:  var(--primary-text-color);
+  color: var(--primary-text-color);
+  padding: 3vh;
+  margin-top: 0vh;
+
 }
 
 
