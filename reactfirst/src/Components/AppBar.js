@@ -8,11 +8,12 @@ import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu'
 import logo from '../images/HomePage-logo.jpg';
 import './AppBar.css';
+import './Themes.css';
 export function ButtonAppBar() {
 
   return (
   
-      <AppBar position='relative' color='primary' >
+      <AppBar position='relative' sx={{ backgroundColor: 'var(--primary-color)' ,color:'var(--primary-text-color)'}}>
         <Toolbar >
           <IconButton
             size="small"
