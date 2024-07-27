@@ -1,5 +1,5 @@
 .HomepageInnerPaper{
-    max-width: 35vw;
+    width: 35vw;
     margin: 3vh;
     padding: 2vh;
     display: flex;
@@ -8,8 +8,6 @@
   }
   
 .HomePage-Mission-Statement-title{
-    align-items: center;
-    justify-content: center;
     text-align: center;
     box-sizing: border-box;
     margin: .5vh;
@@ -27,6 +25,11 @@
   }
   
 .HomepageInnerPaper-small{
-    overflow: hidden;
-    margin: 3vh;
+  margin: 3vh;
+  padding: 2vh;
+  }
+.HomePageInnerGrid{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   }
