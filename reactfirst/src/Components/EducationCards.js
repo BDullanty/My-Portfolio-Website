@@ -74,17 +74,17 @@ export function GridOfEducationCards(){
 
 export function Class160() { 
   return (
-          <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3, background:'var(--card-background-color)',
+          <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
             ':hover': {
           boxShadow: 20,}}}>
             <CardContent>
-              <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+              <Typography sx={{ fontSize: 14 }} color="--secondary-text-color" gutterBottom>
                EENG160
               </Typography>
               <Typography variant="h5" component="div">
               Digital Circuits
               </Typography>
-              <Typography sx={{ mb: 1.5 }} color="text.secondary">
+              <Typography sx={{ mb: 1.5 }} color="--secondary-text-color">
                 B+
               </Typography>
               <Typography variant="body2">
@@ -101,17 +101,17 @@ export function Class160() {
 
 export function Class202() { 
   return (
-          <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3, background:'var(--card-background-color)',
+          <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
             ':hover': {
           boxShadow: 20,}}}>
             <CardContent>
-              <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+              <Typography sx={{ fontSize: 14 }} color="--secondary-text-color" gutterBottom>
                CSCD202
               </Typography>
               <Typography variant="h5" component="div">
               Computing Ethics
               </Typography>
-              <Typography sx={{ mb: 1.5 }} color="text.secondary">
+              <Typography sx={{ mb: 1.5 }} color="--secondary-text-color">
                 A-
               </Typography>
               <Typography variant="body2">
@@ -128,17 +128,17 @@ export function Class202() {
 
 export function Class210() { 
     return (
-            <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3, background:'var(--card-background-color)',
+            <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
               ':hover': {
             boxShadow: 20,}}}>
               <CardContent>
-                <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+                <Typography sx={{ fontSize: 14 }} color="--secondary-text-color" gutterBottom>
                  CSCD210
                 </Typography>
                 <Typography variant="h5" component="div">
                 Java Principals
                 </Typography>
-                <Typography sx={{ mb: 1.5 }} color="text.secondary">
+                <Typography sx={{ mb: 1.5 }} color="--secondary-text-color">
                   A
                 </Typography>
                 <Typography variant="body2">
@@ -154,17 +154,17 @@ export function Class210() {
 }
 export function Class211() { 
   return (
-          <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3, background:'var(--card-background-color)',
+          <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
             ':hover': {
           boxShadow: 20,}}}>
             <CardContent>
-              <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+              <Typography sx={{ fontSize: 14 }} color="--secondary-text-color" gutterBottom>
                CSCD211
               </Typography>
               <Typography variant="h5" component="div">
               Java Principals II
               </Typography>
-              <Typography sx={{ mb: 1.5 }} color="text.secondary">
+              <Typography sx={{ mb: 1.5 }} color="--secondary-text-color">
                 A
               </Typography>
               <Typography variant="body2">
@@ -177,17 +177,17 @@ export function Class211() {
 
 export function Class212() { 
   return (
-          <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3, background:'var(--card-background-color)',
+          <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
             ':hover': {
           boxShadow: 20,}}}>
             <CardContent>
-              <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+              <Typography sx={{ fontSize: 14 }} color="--secondary-text-color" gutterBottom>
                CSCD212
               </Typography>
               <Typography variant="h5" component="div">
               Object Oriented Programming
               </Typography>
-              <Typography sx={{ mb: 1.5 }} color="text.secondary">
+              <Typography sx={{ mb: 1.5 }} color="--secondary-text-color">
                 B+
               </Typography>
               <Typography variant="body2">
@@ -200,17 +200,17 @@ export function Class212() {
 
 export function Class240() { 
   return (
-          <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3, background:'var(--card-background-color)',
+          <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
             ':hover': {
           boxShadow: 20,}}}>
             <CardContent>
-              <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+              <Typography sx={{ fontSize: 14 }} color="--secondary-text-color" gutterBottom>
                CSCD240
               </Typography>
               <Typography variant="h5" component="div">
               C and Unix Programming
               </Typography>
-              <Typography sx={{ mb: 1.5 }} color="text.secondary">
+              <Typography sx={{ mb: 1.5 }} color="--secondary-text-color">
                 B-
               </Typography>
               <Typography variant="body2">
@@ -223,17 +223,17 @@ export function Class240() {
 }
 export function Class260() { 
   return (
-          <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3, background:'var(--card-background-color)',
+          <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
             ':hover': {
           boxShadow: 20,}}}>
             <CardContent>
-              <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+              <Typography sx={{ fontSize: 14 }} color="--secondary-text-color" gutterBottom>
                CSCD260
               </Typography>
               <Typography variant="h5" component="div">
               Architecture And Organization
               </Typography>
-              <Typography sx={{ mb: 1.5 }} color="text.secondary">
+              <Typography sx={{ mb: 1.5 }} color="--secondary-text-color">
                 A-
               </Typography>
               <Typography variant="body2">
@@ -246,17 +246,17 @@ export function Class260() {
 
 export function Class300() { 
   return (
-          <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3, background:'var(--card-background-color)',
+          <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
             ':hover': {
           boxShadow: 20,}}}>
             <CardContent>
-              <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+              <Typography sx={{ fontSize: 14 }} color="--secondary-text-color" gutterBottom>
                CSCD300
               </Typography>
               <Typography variant="h5" component="div">
               Data Structures
               </Typography>
-              <Typography sx={{ mb: 1.5 }} color="text.secondary">
+              <Typography sx={{ mb: 1.5 }} color="--secondary-text-color">
                 A-
               </Typography>
               <Typography variant="body2">
@@ -269,17 +269,17 @@ export function Class300() {
 
 export function Class303() { 
   return (
-          <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3, background:'var(--card-background-color)',
+          <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
             ':hover': {
           boxShadow: 20,}}}>
             <CardContent>
-              <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+              <Typography sx={{ fontSize: 14 }} color="--secondary-text-color" gutterBottom>
                CSCD303
               </Typography>
               <Typography variant="h5" component="div">
               Computer and information Security
               </Typography>
-              <Typography sx={{ mb: 1.5 }} color="text.secondary">
+              <Typography sx={{ mb: 1.5 }} color="--secondary-text-color">
                 A
               </Typography>
               <Typography variant="body2">
@@ -291,17 +291,17 @@ export function Class303() {
 }
 export function Class305() { 
   return (
-          <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3, background:'var(--card-background-color)',
+          <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
             ':hover': {
           boxShadow: 20,}}}>
             <CardContent>
-              <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+              <Typography sx={{ fontSize: 14 }} color="--secondary-text-color" gutterBottom>
                CSCD305
               </Typography>
               <Typography variant="h5" component="div">
               C++ Programming
               </Typography>
-              <Typography sx={{ mb: 1.5 }} color="text.secondary">
+              <Typography sx={{ mb: 1.5 }} color="--secondary-text-color">
                 A
               </Typography>
               <Typography variant="body2">
@@ -314,17 +314,17 @@ export function Class305() {
 
 export function Class320() { 
   return (
-          <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3, background:'var(--card-background-color)',
+          <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
             ':hover': {
           boxShadow: 20,}}}>
             <CardContent>
-              <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+              <Typography sx={{ fontSize: 14 }} color="--secondary-text-color" gutterBottom>
                CSCD300
               </Typography>
               <Typography variant="h5" component="div">
               Algorithms
               </Typography>
-              <Typography sx={{ mb: 1.5 }} color="text.secondary">
+              <Typography sx={{ mb: 1.5 }} color="--secondary-text-color">
                 B
               </Typography>
               <Typography variant="body2">
@@ -337,17 +337,17 @@ export function Class320() {
 
 export function Class327() { 
   return (
-          <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3, background:'var(--card-background-color)',
+          <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
             ':hover': {
           boxShadow: 20,}}}>
             <CardContent>
-              <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+              <Typography sx={{ fontSize: 14 }} color="--secondary-text-color" gutterBottom>
                CSCD327
               </Typography>
               <Typography variant="h5" component="div">
               Relational Database Systems
               </Typography>
-              <Typography sx={{ mb: 1.5 }} color="text.secondary">
+              <Typography sx={{ mb: 1.5 }} color="--secondary-text-color">
                 A-
               </Typography>
               <Typography variant="body2">
@@ -359,17 +359,17 @@ export function Class327() {
 }
 export function Class330() { 
   return (
-          <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3, background:'var(--card-background-color)',
+          <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
             ':hover': {
           boxShadow: 20,}}}>
             <CardContent>
-              <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+              <Typography sx={{ fontSize: 14 }} color="--secondary-text-color" gutterBottom>
                CSCD330
               </Typography>
               <Typography variant="h5" component="div">
               Computer Networks
               </Typography>
-              <Typography sx={{ mb: 1.5 }} color="text.secondary">
+              <Typography sx={{ mb: 1.5 }} color="--secondary-text-color">
                 A
               </Typography>
               <Typography variant="body2">
@@ -382,17 +382,17 @@ export function Class330() {
 
 export function Class340() { 
   return (
-          <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3, background:'var(--card-background-color)',
+          <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
             ':hover': {
           boxShadow: 20,}}}>
             <CardContent>
-              <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+              <Typography sx={{ fontSize: 14 }} color="--secondary-text-color" gutterBottom>
                CSCD340
               </Typography>
               <Typography variant="h5" component="div">
               Operating Systems
               </Typography>
-              <Typography sx={{ mb: 1.5 }} color="text.secondary">
+              <Typography sx={{ mb: 1.5 }} color="--secondary-text-color">
                 A
               </Typography>
               <Typography variant="body2">
@@ -406,17 +406,17 @@ export function Class340() {
 
 export function Class350() { 
   return (
-          <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3, background:'var(--card-background-color)',
+          <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
             ':hover': {
           boxShadow: 20,}}}>
             <CardContent>
-              <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+              <Typography sx={{ fontSize: 14 }} color="--secondary-text-color" gutterBottom>
                CSCD350
               </Typography>
               <Typography variant="h5" component="div">
               Software Development Principles
               </Typography>
-              <Typography sx={{ mb: 1.5 }} color="text.secondary">
+              <Typography sx={{ mb: 1.5 }} color="--secondary-text-color">
                 A-
               </Typography>
               <Typography variant="body2">
@@ -428,17 +428,17 @@ export function Class350() {
 }
 export function Class429() { 
   return (
-          <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3, background:'var(--card-background-color)',
+          <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
             ':hover': {
           boxShadow: 20,}}}>
             <CardContent>
-              <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+              <Typography sx={{ fontSize: 14 }} color="--secondary-text-color" gutterBottom>
                CSCD429
               </Typography>
               <Typography variant="h5" component="div">
               Data Mining
               </Typography>
-              <Typography sx={{ mb: 1.5 }} color="text.secondary">
+              <Typography sx={{ mb: 1.5 }} color="--secondary-text-color">
                 B+
               </Typography>
               <Typography variant="body2">
@@ -450,17 +450,17 @@ export function Class429() {
 }
 export function Class434() { 
   return (
-          <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3, background:'var(--card-background-color)',
+          <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
             ':hover': {
           boxShadow: 20,}}}>
             <CardContent>
-              <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+              <Typography sx={{ fontSize: 14 }} color="--secondary-text-color" gutterBottom>
                CSCD434
               </Typography>
               <Typography variant="h5" component="div">
               Network Security
               </Typography>
-              <Typography sx={{ mb: 1.5 }} color="text.secondary">
+              <Typography sx={{ mb: 1.5 }} color="--secondary-text-color">
                 A
               </Typography>
               <Typography variant="body2">
@@ -473,17 +473,17 @@ export function Class434() {
 
 export function Class437() { 
   return (
-          <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3, background:'var(--card-background-color)',
+          <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
             ':hover': {
           boxShadow: 20,}}}>
             <CardContent>
-              <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+              <Typography sx={{ fontSize: 14 }} color="--secondary-text-color" gutterBottom>
                CSCD437
               </Typography>
               <Typography variant="h5" component="div">
               Secure Coding
               </Typography>
-              <Typography sx={{ mb: 1.5 }} color="text.secondary">
+              <Typography sx={{ mb: 1.5 }} color="--secondary-text-color">
                 A
               </Typography>
               <Typography variant="body2">

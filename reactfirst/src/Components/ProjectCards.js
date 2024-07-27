@@ -35,14 +35,14 @@ export function GridOfProjectCards(){
  
 export function PortfolioWebsiteProjectCard() { 
     return (
-            <Card className="ProjectCard" sx={{ minWidth: 275, boxShadow: 5, background:'var(--card-background-color)',
+            <Card className="ProjectCard" sx={{ minWidth: 275, boxShadow: 5, background:'var(--card-background-color)', color:'var(--primary-text-color)',
               ':hover': {
             boxShadow: 20}}}>
               <CardContent>
                 <Typography sx={{ fontSize: 34 }} variant="h5" component="div" align={"center"} gutterBottom >
                 Portfolio Website
                 </Typography>
-                <Typography sx={{ mb: 1.5, fontSize:22 }} color="text.secondary" align={"center"}>
+                <Typography sx={{ mb: 1.5, fontSize:22 }} color='var(--secondary-text-color)'align={"center"}>
                   React, JavaScript, HTML, CSS, AWS
                 </Typography>
                 <Typography variant="body2" align={"center"} paddingBottom={'20%'}>
@@ -60,7 +60,7 @@ export function PortfolioWebsiteProjectCard() {
 }
 export function OhHellProjectCard() { 
   return (
-    <Card className="ProjectCard" sx={{ minWidth: 275, boxShadow: 5, background:'var(--card-background-color)',
+    <Card className="ProjectCard" sx={{ minWidth: 275, boxShadow: 5, background:'var(--card-background-color)', color:'var(--primary-text-color)',
       ':hover': {
     boxShadow: 20}}}>
             <CardContent>
@@ -68,7 +68,7 @@ export function OhHellProjectCard() {
               Oh Hell
               </Typography>
 
-              <Typography sx={{ mb: 1.5, fontSize:22 }} color="text.secondary" align={"center"}>
+              <Typography sx={{ mb: 1.5, fontSize:22 }} color='var(--secondary-text-color)'align={"center"}>
                 Java
               </Typography>
               <Typography variant="body2" align={"center"}  paddingBottom={'20%'}>
@@ -87,7 +87,7 @@ export function OhHellProjectCard() {
 }
 export function WeatherAssistantToolProjectCard() { 
   return (
-    <Card className="ProjectCard" sx={{ minWidth: 275, boxShadow: 5, background:'var(--card-background-color)',
+    <Card className="ProjectCard" sx={{ minWidth: 275, boxShadow: 5, background:'var(--card-background-color)', color:'var(--primary-text-color)',
       ':hover': {
     boxShadow: 20}}}>
             <CardContent>
@@ -97,7 +97,7 @@ export function WeatherAssistantToolProjectCard() {
               <Typography variant="h5" component="div" align={"center"}>
               
               </Typography>
-              <Typography sx={{ mb: 1.5, fontSize:22 }} color="text.secondary" align={"center"}>
+              <Typography sx={{ mb: 1.5, fontSize:22 }} color='var(--secondary-text-color)' align={"center"}>
               Vue, Typescript, CSS, HTML, Firebase
               </Typography>
               <Typography variant="body2" align={"center"} paddingBottom={'10%'}>
@@ -124,7 +124,7 @@ export function WeatherAssistantToolProjectCard() {
 
 export function ServerProjectCard() { 
   return (
-    <Card className="ProjectCard" sx={{ minWidth: 275, boxShadow: 5, background:'var(--card-background-color)',
+    <Card className="ProjectCard" sx={{ minWidth: 275, boxShadow: 5, background:'var(--card-background-color)', color:'var(--primary-text-color)',
       ':hover': {
     boxShadow: 20}}}>
             <CardContent>
@@ -134,7 +134,7 @@ export function ServerProjectCard() {
               <Typography variant="h5" component="div" align={"center"}>
               
               </Typography>
-              <Typography sx={{ mb: 1.5, fontSize:22 }} color="text.secondary" align={"center"}>
+              <Typography sx={{ mb: 1.5, fontSize:22 }} color='var(--secondary-text-color)' align={"center"}>
               Linux, SQL, MariaDB, Plugin, Scripting, Teamwork
               </Typography>
               <Typography variant="body2" align={"center"}>
@@ -151,14 +151,14 @@ export function ServerProjectCard() {
 }
 export function DynamicDropRateProjectCard() { 
   return (
-    <Card className="ProjectCard" sx={{ minWidth: 275, boxShadow: 5,  background:'var(--card-background-color)',
+    <Card className="ProjectCard" sx={{ minWidth: 275, boxShadow: 5,  background:'var(--card-background-color)', color:'var(--primary-text-color)',
       ':hover': {
     boxShadow: 20}}}>
             <CardContent sx={{justifyContent:"center"}}>
             <Typography sx={{ fontSize: 34 }} variant="h5" component="div" align={"center"} gutterBottom >
               Dynamic Drop Rate Calculator
               </Typography>
-              <Typography sx={{ mb: 1.5, fontSize:22 }} color="text.secondary" align={"center"}>
+              <Typography sx={{ mb: 1.5, fontSize:22 }} color='var(--secondary-text-color)' align={"center"}>
               Statistics, Python, Django
               </Typography>
               <Typography variant="body2" align={"center"}  paddingBottom={'20%'}>

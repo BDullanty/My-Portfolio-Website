@@ -12,7 +12,7 @@
 .ProjectCard {
     width: 15vw;
     height: calc(100%);
-    background-color: var(--primary-color);
+
     color: var(--primary-text-color);
     position: relative;
     }
