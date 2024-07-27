@@ -1,5 +1,5 @@
 import "./ProjectCards.css";
-
+import './Themes.css';
 import gitLogo from"../images/GithubLogo.png";
 import { Box, Button, CardActions, CardMedia } from '@mui/material';
 import Card from '@mui/material/Card';
@@ -35,7 +35,7 @@ export function GridOfProjectCards(){
  
 export function PortfolioWebsiteProjectCard() { 
     return (
-            <Card className="ProjectCard" sx={{ minWidth: 275, boxShadow: 5,
+            <Card className="ProjectCard" sx={{ minWidth: 275, boxShadow: 5, background:'var(--card-background-color)',
               ':hover': {
             boxShadow: 20}}}>
               <CardContent>
@@ -60,7 +60,7 @@ export function PortfolioWebsiteProjectCard() {
 }
 export function OhHellProjectCard() { 
   return (
-    <Card className="ProjectCard" sx={{ minWidth: 275, boxShadow: 5,
+    <Card className="ProjectCard" sx={{ minWidth: 275, boxShadow: 5, background:'var(--card-background-color)',
       ':hover': {
     boxShadow: 20}}}>
             <CardContent>
@@ -87,7 +87,7 @@ export function OhHellProjectCard() {
 }
 export function WeatherAssistantToolProjectCard() { 
   return (
-    <Card className="ProjectCard" sx={{ minWidth: 275, boxShadow: 5,
+    <Card className="ProjectCard" sx={{ minWidth: 275, boxShadow: 5, background:'var(--card-background-color)',
       ':hover': {
     boxShadow: 20}}}>
             <CardContent>
@@ -124,7 +124,7 @@ export function WeatherAssistantToolProjectCard() {
 
 export function ServerProjectCard() { 
   return (
-    <Card className="ProjectCard" sx={{ minWidth: 275, boxShadow: 5,
+    <Card className="ProjectCard" sx={{ minWidth: 275, boxShadow: 5, background:'var(--card-background-color)',
       ':hover': {
     boxShadow: 20}}}>
             <CardContent>
@@ -151,7 +151,7 @@ export function ServerProjectCard() {
 }
 export function DynamicDropRateProjectCard() { 
   return (
-    <Card className="ProjectCard" sx={{ minWidth: 275, boxShadow: 5, 
+    <Card className="ProjectCard" sx={{ minWidth: 275, boxShadow: 5,  background:'var(--card-background-color)',
       ':hover': {
     boxShadow: 20}}}>
             <CardContent sx={{justifyContent:"center"}}>
@@ -177,7 +177,7 @@ export function DynamicDropRateProjectCard() {
 }
 export function PortfolioGithubLinkCard() { 
     return (
-        <Card sx={{ marginLeft:'25%', marginRight:'25%',position:'absolute',bottom:'5%',
+        <Card sx={{ marginLeft:'25%', marginRight:'25%',position:'absolute',bottom:'5%', background:'var(--card-inner-background-color)',
             ':hover': {
           boxShadow: 20 }}}>
                <CardMedia component = "img" image={gitLogo} 
@@ -192,7 +192,7 @@ export function PortfolioGithubLinkCard() {
 }
 export function OhHellGithubLinkCard() { 
   return (
-      <Card justify="flex-end" alignItems="flex-end" sx={{ marginLeft:'25%', marginRight:'25%',position:'absolute',bottom:'5%', 
+      <Card justify="flex-end" alignItems="flex-end" sx={{ marginLeft:'25%', marginRight:'25%',position:'absolute',bottom:'5%', background:'var(--card-inner-background-color)',
           ':hover': {
         boxShadow: 20 }}}>
              <CardMedia component = "img" image={gitLogo} 
@@ -207,7 +207,7 @@ export function OhHellGithubLinkCard() {
 }
 export function WATGithubLinkCard() { 
   return (
-      <Card sx={{ marginLeft:'25%', marginRight:'25%', position:'absolute',bottom:'5%',
+      <Card sx={{ marginLeft:'25%', marginRight:'25%', position:'absolute',bottom:'5%', background:'var(--card-inner-background-color)',
           ':hover': {
         boxShadow: 20 }}}>
              <CardMedia component = "img" image={gitLogo} 
@@ -222,7 +222,7 @@ export function WATGithubLinkCard() {
 }
 export function DynamicDropRateGithubLinkCard() { 
   return (
-      <Card sx={{ marginLeft:'25%', marginRight:'25%', position:'absolute',bottom:'5%',
+      <Card sx={{ marginLeft:'25%', marginRight:'25%', position:'absolute',bottom:'5%', background:'var(--card-inner-background-color)',
           ':hover': {
         boxShadow: 20 }}}>
              <CardMedia component = "img" image={gitLogo} 

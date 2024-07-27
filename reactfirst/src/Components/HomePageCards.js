@@ -46,7 +46,7 @@ export function HomePageRightGrid() {
 
 export function HomePageMissionStatement() { 
     return (
-        <Paper elevation={10} className='HomepageInnerPaper'sx={{
+        <Paper elevation={10} className='HomepageInnerPaper'sx={{background:'var(--card-background-color)',
             ':hover': {
           boxShadow: 15}}}>
            <h4 className="HomePage-Mission-Statement-title">Mission Statement:</h4>
@@ -60,7 +60,7 @@ export function HomePageMissionStatement() {
 
 export function HomePageAboutMe() { 
     return (
-        <Paper elevation={10} className='HomepageInnerPaper'sx={{
+        <Paper elevation={10} className='HomepageInnerPaper'sx={{background:'var(--card-background-color)',
             ':hover': {
           boxShadow: 15}}}>
         <h4 className="HomePage-Mission-Statement-title">About Me:</h4>
@@ -76,7 +76,7 @@ export function HomePageAboutMe() {
 export function HomePageExternalSites() { 
     return (
 
-        <Paper elevation={10} className='HomepageInnerPaper-small'sx={{
+        <Paper elevation={10} className='HomepageInnerPaper-small'sx={{background:'var(--card-background-color)',
             ':hover': {
           boxShadow: 15}}}>
               <br/>

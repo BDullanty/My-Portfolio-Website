@@ -15,7 +15,7 @@ export const HireMe = () => {
 
       </header>
       <body className='HireMe-body'>
-        <Paper elevation={20} className="HireMe-Paper-content">
+        <Paper elevation={20} className="HireMe-Paper-content" sx={{background:'var(--card-background-color)'}}>
 
           <br/>
           <p className="HireMe-ContentText">Personal Email: Bdullanty@gmail.com</p>
