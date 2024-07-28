@@ -1,6 +1,5 @@
 import "./EducationCards.css";
 import { useRef } from "react";
-import { useDraggable } from "react-use-draggable-scroll";
 import { Box, Button, CardActions, CardMedia } from '@mui/material';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
