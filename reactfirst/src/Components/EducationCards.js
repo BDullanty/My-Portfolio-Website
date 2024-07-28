@@ -1,6 +1,5 @@
 import "./EducationCards.css";
 import { useRef } from "react";
-import { Box, Button, CardActions, CardMedia } from '@mui/material';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Grid from '@mui/material/Unstable_Grid2';

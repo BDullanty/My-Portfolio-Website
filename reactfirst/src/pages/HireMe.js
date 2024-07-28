@@ -3,7 +3,7 @@ import { PageFooter } from "../Components/footer";
 import Paper from '@mui/material/Paper';
 import './HireMe.css';
 import '../Components/LinkCards';
-import { GithubLinkCard, GridOfLinkCards, HackerRankLinkCard } from "../Components/LinkCards";
+import { GridOfLinkCards} from "../Components/LinkCards";
 
 export const HireMe = () => {
   return (

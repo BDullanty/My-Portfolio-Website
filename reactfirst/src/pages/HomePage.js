@@ -1,16 +1,10 @@
 
-import Grid from '@mui/material/Unstable_Grid2';
-import logo from '../images/HomePage-logo.jpg';
-
 import { PageFooter } from "../Components/footer";
 import "../Components/HomePageCards";
 import './HomePage.css';
 
-import { GridOfLinkCards,GithubLinkCard,  LinkedInLinkCard } from '../Components/LinkCards';
 import {ButtonAppBar} from '../Components/AppBar'
-import { Button, Tab } from '@mui/material';
-import {Paper} from '@mui/material';
-import { HomePageMissionStatement, HomePagePageGrid } from '../Components/HomePageCards';
+import { HomePagePageGrid } from '../Components/HomePageCards';
 export const HomePage = () => {
   return (
     <div className="HomePage">
