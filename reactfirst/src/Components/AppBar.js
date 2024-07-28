@@ -18,7 +18,7 @@ export function ButtonAppBar() {
             aria-label="menu"
             sx={{ mr: 2 }}
             onClick={() => {
-                window.location.assign("./");
+                window.location.assign("/");
                    
                }}>
             
@@ -33,7 +33,7 @@ export function ButtonAppBar() {
             aria-label="menu"
             sx={{ mr: 2 }}
             onClick={() => {
-                window.location.assign("./Education");
+                window.location.assign("/Education");
                    
                }}>
             
@@ -49,7 +49,7 @@ export function ButtonAppBar() {
             aria-label="menu"
             sx={{ mr: 2 }}
             onClick={() => {
-                window.location.assign("./Projects");
+                window.location.assign("/Projects");
                    
                }}>
             
@@ -66,7 +66,7 @@ export function ButtonAppBar() {
             color="inherit"
             aria-label="menu"
             sx={{ mr: 2 }} onClick={() => {
-                window.location.assign("./HireMe");
+                window.location.assign("/HireMe");
                    
                }}><Typography variant="body1" component="div" sx={{ flexGrow: 0 }} center>
                     Hire Me
