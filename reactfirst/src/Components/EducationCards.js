@@ -1,18 +1,12 @@
 import "./EducationCards.css";
-import { useRef } from "react";
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Grid from '@mui/material/Unstable_Grid2';
 import Typography from '@mui/material/Typography';
 export function GridOfEducationCards(){
-    const ref = useRef(null); // We will use React useRef hook to reference the wrapping div:
-  const { events } = useDraggable(ref); // Now we pass the reference to the useDraggable hook:
-  const someNumbers = [...Array(30).keys()];
   return (
     <Grid container spacing = {2}
       className="ClassCardBackground"
-      {...events}
-      ref={ref} // add reference and events to the wrapping div
     >
               <Grid item>
         <Class437/>
