@@ -5,9 +5,7 @@ import Grid from '@mui/material/Unstable_Grid2';
 import Typography from '@mui/material/Typography';
 export function GridOfEducationCards(){
   return (
-    <Grid container spacing = {2}
-      className="ClassCardBackground"
-    >
+    <Grid container spacing = {2} className="ClassCardBackground">
               <Grid item>
         <Class437/>
         </Grid>
@@ -70,7 +68,7 @@ export function GridOfEducationCards(){
 
 export function Class160() { 
   return (
-          <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
+          <Card  className="ClassCard" sx={{ minWidth: 250, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
             ':hover': {
           boxShadow: 20,}}}>
             <CardContent>
@@ -97,7 +95,7 @@ export function Class160() {
 
 export function Class202() { 
   return (
-          <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
+          <Card  className="ClassCard" sx={{ minWidth: 250, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
             ':hover': {
           boxShadow: 20,}}}>
             <CardContent>
@@ -124,7 +122,7 @@ export function Class202() {
 
 export function Class210() { 
     return (
-            <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
+            <Card  className="ClassCard" sx={{ minWidth: 250, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
               ':hover': {
             boxShadow: 20,}}}>
               <CardContent>
@@ -150,7 +148,7 @@ export function Class210() {
 }
 export function Class211() { 
   return (
-          <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
+          <Card  className="ClassCard" sx={{ minWidth: 250, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
             ':hover': {
           boxShadow: 20,}}}>
             <CardContent>
@@ -173,7 +171,7 @@ export function Class211() {
 
 export function Class212() { 
   return (
-          <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
+          <Card  className="ClassCard" sx={{ minWidth: 250, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
             ':hover': {
           boxShadow: 20,}}}>
             <CardContent>
@@ -196,7 +194,7 @@ export function Class212() {
 
 export function Class240() { 
   return (
-          <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
+          <Card  className="ClassCard" sx={{ minWidth: 250, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
             ':hover': {
           boxShadow: 20,}}}>
             <CardContent>
@@ -219,7 +217,7 @@ export function Class240() {
 }
 export function Class260() { 
   return (
-          <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
+          <Card  className="ClassCard" sx={{ minWidth: 250, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
             ':hover': {
           boxShadow: 20,}}}>
             <CardContent>
@@ -242,7 +240,7 @@ export function Class260() {
 
 export function Class300() { 
   return (
-          <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
+          <Card  className="ClassCard" sx={{ minWidth: 250, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
             ':hover': {
           boxShadow: 20,}}}>
             <CardContent>
@@ -265,7 +263,7 @@ export function Class300() {
 
 export function Class303() { 
   return (
-          <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
+          <Card  className="ClassCard" sx={{ minWidth: 250, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
             ':hover': {
           boxShadow: 20,}}}>
             <CardContent>
@@ -287,7 +285,7 @@ export function Class303() {
 }
 export function Class305() { 
   return (
-          <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
+          <Card  className="ClassCard" sx={{ minWidth: 250, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
             ':hover': {
           boxShadow: 20,}}}>
             <CardContent>
@@ -310,7 +308,7 @@ export function Class305() {
 
 export function Class320() { 
   return (
-          <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
+          <Card  className="ClassCard" sx={{ minWidth: 250, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
             ':hover': {
           boxShadow: 20,}}}>
             <CardContent>
@@ -333,7 +331,7 @@ export function Class320() {
 
 export function Class327() { 
   return (
-          <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
+          <Card  className="ClassCard" sx={{ minWidth: 250, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
             ':hover': {
           boxShadow: 20,}}}>
             <CardContent>
@@ -355,7 +353,7 @@ export function Class327() {
 }
 export function Class330() { 
   return (
-          <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
+          <Card  className="ClassCard" sx={{ minWidth: 250, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
             ':hover': {
           boxShadow: 20,}}}>
             <CardContent>
@@ -378,7 +376,7 @@ export function Class330() {
 
 export function Class340() { 
   return (
-          <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
+          <Card  className="ClassCard" sx={{ minWidth: 250, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
             ':hover': {
           boxShadow: 20,}}}>
             <CardContent>
@@ -402,7 +400,7 @@ export function Class340() {
 
 export function Class350() { 
   return (
-          <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
+          <Card  className="ClassCard" sx={{ minWidth: 250, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
             ':hover': {
           boxShadow: 20,}}}>
             <CardContent>
@@ -424,7 +422,7 @@ export function Class350() {
 }
 export function Class429() { 
   return (
-          <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
+          <Card  className="ClassCard" sx={{ minWidth: 250, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
             ':hover': {
           boxShadow: 20,}}}>
             <CardContent>
@@ -446,7 +444,7 @@ export function Class429() {
 }
 export function Class434() { 
   return (
-          <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
+          <Card  className="ClassCard" sx={{ minWidth: 250, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
             ':hover': {
           boxShadow: 20,}}}>
             <CardContent>
@@ -469,7 +467,7 @@ export function Class434() {
 
 export function Class437() { 
   return (
-          <Card  className="ClassCard" sx={{ minWidth: 275, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
+          <Card  className="ClassCard" sx={{ minWidth: 250, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
             ':hover': {
           boxShadow: 20,}}}>
             <CardContent>
