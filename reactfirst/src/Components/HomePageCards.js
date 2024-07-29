@@ -76,7 +76,7 @@ export function HomePageAboutMe() {
         <br/><br/>
         My experience with Linux clients and servers is both academic and practical. In my coursework, I have engaged in assignments and projects that involve managing and configuring Linux environments. Additionally, personal projects have allowed me to apply and refine my skills in real-world scenarios.
         <br/><br/>
-        Driven by a passion for software development, I am motivated by the challenge of solving problems and the opportunity to continuously learn and adapt to new tools and technologies. I am excited to leverage my skills and enthusiasm as I advance in my career as a Software Developer.   <br/><br/>I have a always had a drive to solve problems, and I find myself passionate to learn new tools and skills on my journey of being a Software Developer.
+        Driven by a passion for software development, I am motivated by the challenge of solving problems and the opportunity to continuously learn and adapt to new tools and technologies. I am excited to leverage my skills and enthusiasm as I advance in my career as a Software Developer.
         </h6><br/>
       </Paper>
     )
