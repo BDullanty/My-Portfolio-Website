@@ -11,8 +11,10 @@ export const Education = () => {
       <header className="Education-header">
         <h1 className="Education-Mission-Statement-title">Completed Coursework</h1>
         <br/>
-        <h5 className="Education-Mission-Statement">I am a current student, and have attended over twenty-three Computer Science and Math related classes at Eastern Washington University. Feel free to scroll through them below.</h5>
-      </header>
+        <h5 className="Education-Mission-Statement">
+            I am currently a senior at Eastern Washington University, having completed over twenty-three courses in Computer Science and Mathematics. These classes have given me a solid foundation in software development, programming languages, algorithms, networks, and cybersecurity.
+        </h5>
+        </header>
       <body className='Education-body'>
         <GridOfEducationCards/>
       </body >
