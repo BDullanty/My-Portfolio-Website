@@ -51,7 +51,9 @@ export function HomePageMissionStatement() {
           boxShadow: 15}}}>
            <h4 className="HomePage-Mission-Statement-title">Mission Statement:</h4>
            <h6 className="HomePage-Mission-Statement">
-             I am looking to join a team for an ethical company for which I can assist on the entry/intern level as a software developer.
+            I am eager to contribute to an ethical company as an entry-level or intern software developer.
+            <br/><br/> I aim to apply my skills and enthusiasm for technology to support impactful projects and advance my professional development.
+            <br/><br/> I am committed to making a positive impact and learning from experienced professionals in a collaborative environment.
            </h6>
 
        </Paper>
@@ -65,14 +67,20 @@ export function HomePageAboutMe() {
           boxShadow: 15}}}>
         <h4 className="HomePage-Mission-Statement-title">About Me:</h4>
         <h6 className="HomePage-Mission-Statement">
-          I am a current student with senior standing at Eastern Washington University in Spokane Washington. 
-          <br/><br/>I have taken a multitude of courses with a focus on specific programming languages, software development, algorithms, networks, and cybersecurity.
-          <br/><br/>I have a good understanding of Linux clients and servers, stemming from several networking classes and personal projects.
-          <br/><br/>I have a always had a drive to solve problems, and I find myself passionate to learn new tools and skills on my journey of being a Software Developer.
-        </h6>
+
+        I am a senior at Eastern Washington University in Spokane, Washington, focusing on software development. My academic journey has provided me with a solid foundation in various aspects of software engineering.
+        <br/><br/>
+        Through my coursework, I have gained extensive knowledge in programming languages, which has honed my ability to write clean, efficient, and maintainable code. I have also delved deeply into algorithms, equipping me with the skills to tackle complex problem-solving tasks and optimize performance.
+        <br/><br/>
+        In addition to programming and algorithms, I have studied cybersecurity, which has heightened my awareness of security principles and best practices for developing secure applications. This knowledge is crucial for understanding and mitigating potential vulnerabilities in software.
+        <br/><br/>
+        My experience with Linux clients and servers is both academic and practical. In my coursework, I have engaged in assignments and projects that involve managing and configuring Linux environments. Additionally, personal projects have allowed me to apply and refine my skills in real-world scenarios.
+        <br/><br/>
+        Driven by a passion for software development, I am motivated by the challenge of solving problems and the opportunity to continuously learn and adapt to new tools and technologies. I am excited to leverage my skills and enthusiasm as I advance in my career as a Software Developer.   <br/><br/>I have a always had a drive to solve problems, and I find myself passionate to learn new tools and skills on my journey of being a Software Developer.
+        </h6><br/>
       </Paper>
     )
-}
+} 
 export function HomePageExternalSites() { 
     return (
 
