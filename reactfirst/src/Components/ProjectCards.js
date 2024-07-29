@@ -46,8 +46,8 @@ export function PortfolioWebsiteProjectCard() {
                   React, JavaScript, HTML, CSS, AWS
                 </Typography>
                 <Typography variant="body2" align={"center"} paddingBottom={'20%'}>
-                Focus on React, JavaScript, HTML, CSS, and AWS Cloud Services for hosting. All components of this website was created by myself using available libraries. Feel free to check out my progression on creating the website using the below Github Link
-                </Typography>
+                    I developed my personal portfolio website using React, JavaScript, HTML, CSS, and AWS Cloud Services for hosting. Every component was crafted by me, leveraging available libraries to enhance functionality and design. You can explore the development process and progress through the GitHub link below.
+               </Typography>
                 <PortfolioGithubLinkCard/>
       
                 </CardContent>
@@ -72,9 +72,8 @@ export function OhHellProjectCard() {
                 Java
               </Typography>
               <Typography variant="body2" align={"center"}  paddingBottom={'20%'}>
-              A text based card game. Written in Java using OOP and SOLID principles . Integrates cards, players, AI, hands, tables, and a game board.
-              Feel free to use the program by using the source code given below using the Github Link.
-              </Typography>
+              This is a text-based card game developed in Java, adhering to OOP and SOLID principles. The project integrates various elements such as cards, players, AI, hands, tables, and a game board. You can access and try out the program via the source code provided in the GitHub link below.
+               </Typography>
               <OhHellGithubLinkCard/>
 
             </CardContent>
@@ -138,7 +137,7 @@ export function ServerProjectCard() {
               Linux, SQL, MariaDB, Plugin, Scripting, Teamwork
               </Typography>
               <Typography variant="body2" align={"center"}>
-              A Proxy based group of connected servers that link to provide several gaming experiences to over 20,000 unique players for over 5 years. 
+                Own and contribute to a proxy-based network of gaming servers that have provided a range of gaming experiences to over 20,000 unique players for more than five years. This project involves extensive teamwork and integration of various server management and scripting technologies.
               </Typography>
               <br/><br/>
             </CardContent>
