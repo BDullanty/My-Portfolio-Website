@@ -52,17 +52,20 @@
   vertical-align: center;
 }
 .HireMe-Paper-content{
-  height: 55dvh;
   width: 70%;
-  margin-bottom: 3vh;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .HireMe-ContentText{
   text-align: center;
   margin-top: 0vh;
   margin-bottom: 0px;
-  height: 12%;
-  font-size: calc(3px + 2vmin);
+  font-size: calc(4vmin);
 }
 .HireMe-MediaTitle{
   align-items: center;
