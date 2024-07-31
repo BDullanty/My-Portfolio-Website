@@ -9,7 +9,7 @@ import Typography from '@mui/material/Typography';
 
 export function GridOfProjectCards(){
   return(
-    <Grid  container spacing = {3} className="ProjectCardBackground">
+    <Grid  container spacing = {3} className="ProjectCardGrid">
         <Grid item>
           <PortfolioWebsiteProjectCard/>
           

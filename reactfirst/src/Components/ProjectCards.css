@@ -1,5 +1,5 @@
 @import '../Components/Themes.css';
-.ProjectCardBackground {
+.ProjectCardGrid {
     display: flex;
     padding: 0;
     overflow: hidden;
@@ -7,17 +7,17 @@
     text-align: center;
     background-color: var(--secondary-color);
     width: 100%;
+    
 }
 
 .ProjectCard {
     width: 15vw;
     height: calc(100%);
-
     color: var(--primary-text-color);
     position: relative;
     }
-
-.p {
-    white-space: normal;
- 
+    
+.ProjectCard-content{
+    
+    font-family: var(--third-font-type);
 }
