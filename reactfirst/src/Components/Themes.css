@@ -5,4 +5,8 @@
   --secondary-text-color: #e0e1dd;
   --card-background-color:#415a77;
   --card-inner-background-color:#e0e1dd;
+
+  --primary-font-type:"Roboto Slab";
+  --secondary-font-type:"Poppins";
+  --third-font-type:"Gentium Basic";
 }
