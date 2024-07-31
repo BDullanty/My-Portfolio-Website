@@ -2,9 +2,10 @@
 import { PageFooter } from "../Components/footer";
 import "../Components/HomePageCards";
 import './HomePage.css';
-
+import {FadeInLeft,FadeInRight,FadeIn} from '../Components/Animations';
 import {ButtonAppBar} from '../Components/AppBar'
 import { HomePagePageGrid } from '../Components/HomePageCards';
+
 export const HomePage = () => {
   return (
     <div className="HomePage">
@@ -12,20 +13,29 @@ export const HomePage = () => {
        <ButtonAppBar/>
       
        <header className='HomePage-header'>
-   
-          <h1 className="HomePage-Title">
-          Welcome! I'm Brady,
-          <br/>
-           A Software Developer
-          </h1>
-          <h6 className="HomePage-Secondary-Title">Feel free to browse around and learn more about my journey.</h6>
- 
+          <FadeInLeft delay='0s'>        
+              <h1 className="HomePage-Title">
+                 Welcome! I'm Brady,         
+              </h1>
+          </FadeInLeft>
+          <FadeInRight delay='1s'>
+            <h1 className="HomePage-Title">
+              A Software Developer
+            </h1>
+
+          </FadeInRight>
+              
+
+          <FadeIn delay='2s'>
+          <h6 className="HomePage-Secondary-Title">Feel free to click a new page above, or read below to learn more about my journey.</h6>
+          </FadeIn>
        </header>
 
       <body className='HomePage-body'> 
 
-
+      <FadeIn delay='3s'>
       <HomePagePageGrid/>
+      </FadeIn>
       </body>
      
       <PageFooter/>
