@@ -7,19 +7,20 @@
 }
 
 
-.Education-Mission-Statement-title{
+.Education-title{
   align-items: center;
   justify-content: center;
   text-align: center;
   box-sizing: border-box;
-  
+  font-family: var(--primary-font-type);
 }
-.Education-Mission-Statement{
+.Education-subtitle{
   text-align: center;
   margin-top: -2vh;
   margin-bottom: 0px;
   margin-left: 7vw;
   margin-right: 7vw;
+  font-family: var(--secondary-font-type);
 }
 .Education-header {
   text-align: center;
