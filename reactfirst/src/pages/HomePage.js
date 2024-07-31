@@ -13,12 +13,12 @@ export const HomePage = () => {
       
        <header className='HomePage-header'>
    
-          <h1 className="Homepage-Title">
+          <h1 className="HomePage-Title">
           Welcome! I'm Brady,
           <br/>
            A Software Developer
           </h1>
-          <h6 className="HomePage-Mission-Statement">Feel free to browse around and learn more about my journey.</h6>
+          <h6 className="HomePage-Secondary-Title">Feel free to browse around and learn more about my journey.</h6>
  
        </header>
 

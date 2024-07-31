@@ -29,13 +29,18 @@
 }
 
 
-.Homepage-Title{
+.HomePage-Title{
   text-align: center;
   font-size: calc(10px + 5vmin);
   vertical-align: center;
 
+  font-family: var(--primary-font-type);
 }
-
+.HomePage-Secondary-Title{
+  text-align: center;
+  vertical-align: center;
+  font-family: var(--secondary-font-type);
+}
 .HomePage-body {
   box-sizing: border-box;
   border-style: solid;
