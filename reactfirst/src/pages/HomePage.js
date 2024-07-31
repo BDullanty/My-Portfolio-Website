@@ -17,23 +17,23 @@ export const HomePage = () => {
               <h1 className="HomePage-Title">
                  Welcome! I'm Brady,         
               </h1>
-          </FadeInLeft>
-          <FadeInRight delay='1s'>
+
+
             <h1 className="HomePage-Title">
               A Software Developer
             </h1>
 
-          </FadeInRight>
+            </FadeInLeft>
               
 
-          <FadeIn delay='2.5s'>
+          <FadeIn delay='.75s'>
           <h6 className="HomePage-Secondary-Title">Feel free to click a new page above, or read below to learn more about my journey.</h6>
           </FadeIn>
        </header>
 
       <body className='HomePage-body'> 
 
-      <FadeIn delay='4.5s'>
+      <FadeIn delay='1.5s'>
       <HomePagePageGrid/>
       </FadeIn>
       </body>
