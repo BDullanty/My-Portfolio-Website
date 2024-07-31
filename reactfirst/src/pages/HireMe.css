@@ -46,10 +46,17 @@
   flex-grow: 1;
 }
 
-.HireMe-Paper-titletext{
+.HireMe-titletext{
   text-align: center;
   font-size: calc(10px + 5vmin);
   vertical-align: center;
+  font-family: var(--primary-font-type);
+}
+
+.Project-secondary-title{
+  text-align: center;
+  vertical-align: center;
+  font-family: var(--secondary-font-type);
 }
 .HireMe-Paper-content{
   width: 70%;
@@ -66,6 +73,9 @@
   margin-top: 0vh;
   margin-bottom: 0px;
   font-size: calc(4vmin);
+  font-family: var(--secondary-font-type);
+  
+  
 }
 .HireMe-MediaTitle{
   align-items: center;
@@ -74,5 +84,5 @@
   padding: 0vh;
   margin-bottom: 0px;
   font-size: calc(3px + 2vmin);
-  
+  font-family:var(--secondary-font-type);
 }

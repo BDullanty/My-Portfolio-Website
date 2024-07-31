@@ -10,8 +10,8 @@ export const HireMe = () => {
     <div className="HireMe">
       <ButtonAppBar/>
       <header className="HireMe-header">
-      <h1 className="HireMe-title">Contact Information</h1>
-      <h5 className="Project-Mission-Statement">(Prefered contact is by email)</h5>
+      <h1 className="HireMe-titletext">Contact Information</h1>
+      <h5 className="Project-secondary-title">(Prefered contact is by email)</h5>
 
       </header>
       <body className='HireMe-body'>
