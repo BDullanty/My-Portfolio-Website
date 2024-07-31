@@ -26,14 +26,14 @@ export const HomePage = () => {
           </FadeInRight>
               
 
-          <FadeIn delay='2s'>
+          <FadeIn delay='2.5s'>
           <h6 className="HomePage-Secondary-Title">Feel free to click a new page above, or read below to learn more about my journey.</h6>
           </FadeIn>
        </header>
 
       <body className='HomePage-body'> 
 
-      <FadeIn delay='3s'>
+      <FadeIn delay='4.5s'>
       <HomePagePageGrid/>
       </FadeIn>
       </body>
