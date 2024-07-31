@@ -35,26 +35,19 @@
   font-size: calc(10px + 5vmin);
   vertical-align: center;
   text-align: center;
+  font-family: var(--primary-font-type);
 }
 
-.Projects-Mission-Statement-title{
+.Projects-Secondary-Title{
   align-items: center;
   justify-content: center;
   text-align: center;
   box-sizing: border-box;
   margin: 1%;
   font-size: calc(10px + 2vmin);
+  font-family: var(--secondary-font-type);
   
 }
-.Projects-Mission-Statement{
-  text-align: center;
-  margin-top: 1%;
-  margin-bottom: 1%;
-  margin-left: 10vw;
-  margin-right: 10vw;
-  font-size: calc(12px + 1vmin);
-}
-
 
 .Projects-body{
   vertical-align: middle;
