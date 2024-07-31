@@ -178,7 +178,8 @@ export function PortfolioGithubLinkCard() {
     return (
         <Card sx={{ marginLeft:'25%', marginRight:'25%',position:'absolute',bottom:'5%', background:'var(--card-inner-background-color)',
             ':hover': {
-          boxShadow: 20 }}}>
+          boxShadow: 20,
+          cursor: 'pointer' }}}>
                <CardMedia component = "img" image={gitLogo} 
                onClick={() => {
                 window.open("https://github.com/BDullanty/My-Portfolio-Website","_blank")
@@ -193,7 +194,8 @@ export function OhHellGithubLinkCard() {
   return (
       <Card justify="flex-end" alignItems="flex-end" sx={{ marginLeft:'25%', marginRight:'25%',position:'absolute',bottom:'5%', background:'var(--card-inner-background-color)',
           ':hover': {
-        boxShadow: 20 }}}>
+        boxShadow: 20,
+        cursor: 'pointer' }}}>
              <CardMedia component = "img" image={gitLogo} 
              onClick={() => {
               window.open("https://github.com/BDullanty/OH-Hell","_blank")
@@ -208,7 +210,8 @@ export function WATGithubLinkCard() {
   return (
       <Card sx={{ marginLeft:'25%', marginRight:'25%', position:'absolute',bottom:'5%', background:'var(--card-inner-background-color)',
           ':hover': {
-        boxShadow: 20 }}}>
+        boxShadow: 20,
+        cursor: 'pointer' }}}>
              <CardMedia component = "img" image={gitLogo} 
              onClick={() => {
               window.open("https://github.com/BDullanty/Weather-Assistant-Tool","_blank")
@@ -223,7 +226,8 @@ export function DynamicDropRateGithubLinkCard() {
   return (
       <Card sx={{ marginLeft:'25%', marginRight:'25%', position:'absolute',bottom:'5%', background:'var(--card-inner-background-color)',
           ':hover': {
-        boxShadow: 20 }}}>
+        boxShadow: 20,
+        cursor: 'pointer' }}}>
              <CardMedia component = "img" image={gitLogo} 
              onClick={() => {
               window.open("https://github.com/EtherealCraft/DynamicDropRateCalculator","_blank")

@@ -32,7 +32,8 @@ export function GithubLinkCard() {
     return (
         <Card sx={{
             ':hover': {
-          boxShadow: 20}}}>
+          boxShadow: 20,
+          cursor: 'pointer'}}}>
                <CardMedia component = "img" image={gitLogo} sx={{padding: ".5vh", height:"5vh",width:"10vh",background:'var(--card-inner-background-color)',objectFit:"contain"}}
                onClick={() => {
                 window.open("https://github.com/bdullanty","_blank")
@@ -48,7 +49,8 @@ export function LinkedInLinkCard() {
     return (
         <Card sx={{
             ':hover': {
-          boxShadow: 20}}}>
+          boxShadow: 20,
+          cursor: 'pointer'}}}>
         
             <CardMedia component = "img" image={linkedInLogo} 
             sx={{padding: ".5vh", height:"5vh",width:"10vh",objectFit:"contain",background:'var(--card-inner-background-color)'}}
@@ -65,7 +67,8 @@ export function HackerRankLinkCard() {
     return (
         <Card sx={{
             ':hover': {
-          boxShadow: 20}}}>
+          boxShadow: 20,
+          cursor: 'pointer'}}}>
         
             <CardMedia component = "img" image={hackerrankLogo} 
             sx={{padding: ".5vh", height:"5vh",width:"10vh",objectFit:"contain",background:'var(--card-inner-background-color)'}}
