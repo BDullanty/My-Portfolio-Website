@@ -8,14 +8,15 @@
     align-items: center;
   }
   
-.HomePage-Mission-Statement-title{
+.HomePage-Card-Title{
     text-align: center;
     box-sizing: border-box;
     margin: .5vh;
-    font-size: calc(5px + 4vmin)
+    font-size: calc(5px + 4vmin);
+    font-family: var(--primary-font-type);
     
   }
-  .HomePage-Mission-Statement{
+  .HomePage-Card-Content{
     text-align: center;
     margin-top: 1%;
     margin-bottom: 1%;
@@ -23,11 +24,15 @@
     margin-right: 10vw;
     font-size: calc(12px + 1vmin);
     width: 90%;
+    font-family: var(--secondary-font-type);
   }
   
 .HomepageInnerPaper-small{
   margin: 3vh;
+  font-size: calc(5px + 4vmin);
+  font-family: var(--primary-font-type);
   padding: 2vh;
+  padding-top: 0vh;
   }
 .HomePageInnerGrid{
   display: flex;

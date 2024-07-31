@@ -49,8 +49,8 @@ export function HomePageMissionStatement() {
         <Paper elevation={10} className='HomepageInnerPaper'sx={{background:'var(--card-background-color)', color:'var(--primary-text-color)',
             ':hover': {
           boxShadow: 15}}}>
-           <h4 className="HomePage-Mission-Statement-title">Mission Statement:</h4>
-           <h6 className="HomePage-Mission-Statement">
+           <h4 className="HomePage-Card-Title">Mission Statement:</h4>
+           <h6 className="HomePage-Card-Content">
             I am eager to contribute to an ethical company as an entry-level or intern software developer.
             <br/><br/> I aim to apply my skills and enthusiasm for technology to support impactful projects and advance my professional development.
             <br/><br/> I am committed to making a positive impact and learning from experienced professionals in a collaborative environment.
@@ -65,8 +65,8 @@ export function HomePageAboutMe() {
         <Paper elevation={10} className='HomepageInnerPaper'sx={{background:'var(--card-background-color)', color:'var(--primary-text-color)',
             ':hover': {
           boxShadow: 15}}}>
-        <h4 className="HomePage-Mission-Statement-title">About Me:</h4>
-        <h6 className="HomePage-Mission-Statement">
+        <h4 className="HomePage-Card-Title">About Me:</h4>
+        <h6 className="HomePage-Card-Content">
 
         I am a senior at Eastern Washington University in Spokane, Washington, focusing on software development. My academic journey has provided me with a solid foundation in various aspects of software engineering.
         <br/><br/>
