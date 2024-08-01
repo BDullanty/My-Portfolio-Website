@@ -2,22 +2,24 @@
 .ClassCardBackground {
     display: flex;
     flex-wrap: nowrap;
-    overflow: hidden;
     justify-content: center;
     text-align: center;
     background-color: var(--primary-color);
     width: 75vw;
-    padding-top:5vh;
+    padding-top:0vh;
     padding-bottom:5vh;
 }
 
 .ClassCard {
-    width: 20vw;
+    
+    width: 24vw;
+    min-width: 20vw;
     height: 100%;
     flex: auto;
     background-color: var(--primary-color);
     justify-content: center;
     align-items: center;
+    margin-top: 0vh;
     color: var(--primary-text-color);
 }
 
