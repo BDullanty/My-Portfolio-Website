@@ -14,6 +14,9 @@ Welcome to setup and download instructions for locally hosting this website.
 ```npm install -g create-react-app``` and ```npm install react-scripts --save```<br>
 ### Install MUI for toolbar and cards
 ```npm install @mui/material @emotion/react @emotion/styled @mui/styled-engine-sc styled-components```
+
+### Install ANimations
+``` npm install react-animations```
 ### 3. Run:
 - Navigate to the downloaded folder ```./reactfirst``` from this repository
 - Type npm start
