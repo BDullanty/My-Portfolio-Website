@@ -29,7 +29,7 @@ export function ButtonAppBar() {
             </Typography>
           </IconButton>
           <IconButton
-            size="small"
+            size="large"
             edge="start"
             color="inherit"
             aria-label="menu"
@@ -39,13 +39,13 @@ export function ButtonAppBar() {
                    
                }}>
             
-            <Typography variant="body1" component="div" sx={{ flexGrow: 0 }} center>
+            <Typography variant="body1" component="div" center>
             Education
           </Typography> 
           </IconButton>
           
           <IconButton
-            size="small"
+            size="large"
             edge="start"
             color="inherit"
             aria-label="menu"
@@ -55,22 +55,22 @@ export function ButtonAppBar() {
                    
                }}>
             
-            <Typography variant="body1" component="div" sx={{ flexGrow: 0 }} center>
+            <Typography variant="body1" component="div" center>
             Projects
             </Typography>
           </IconButton>
 
 
      
-                <IconButton
-                 size="small"
+            <IconButton
+            size="large"
             edge="start"
             color="inherit"
             aria-label="menu"
-            sx={{ mr: 2 }} onClick={() => {
+            sx={{ mr: 2, ':hover': {backgroundColor: 'var(--secondary-color)'}}} onClick={() => {
                 window.location.assign("/HireMe");
                    
-               }}><Typography variant="body1" component="div" sx={{ flexGrow: 0 ,':hover': {backgroundColor: 'var(--secondary-color)' }}} center>
+               }}><Typography variant="body1" component="div" center>
                     Hire Me
                     </Typography>
                 </IconButton>
