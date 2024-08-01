@@ -1,17 +1,1 @@
 @import "./Themes.css";
-.MuiAppBar-root{
-    color: var(--primary-text-color);
-    background: var(--primary-color);   
-}
-
-.MuiAppBar-colorDefault{
-    color: var(--primary-text-color);
-    background: var(--primary-color);   
-}
-.MuiAppBar-colorPrimary{
-    color: var(--primary-text-color);
-    background: var(--primary-color);   
-}
-.Toolbar-button{
-    color: var(--secondary-text-color);
-}
