@@ -1,7 +1,9 @@
 import "./ProjectCards.css";
 import './Themes.css';
+import {FadeInUp} from '../Components/Animations';
+
 import gitLogo from"../images/GithubLogo.png";
-import { Button, CardActions, CardMedia } from '@mui/material';
+import { Button, CardActions, CardMedia, Fade } from '@mui/material';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Grid from '@mui/material/Unstable_Grid2';
@@ -10,23 +12,34 @@ import Typography from '@mui/material/Typography';
 export function GridOfProjectCards(){
   return(
     <Grid  container spacing = {3} className="ProjectCardGrid">
+   
         <Grid item>
+        <FadeInUp >
           <PortfolioWebsiteProjectCard/>
           
+        </FadeInUp>
         </Grid>
         <Grid item>
+          <FadeInUp delay='.25s'>
         <OhHellProjectCard/>
+        </FadeInUp>
         
         </Grid>      
           <Grid item>
+            <FadeInUp delay='.5s'>
         < ServerProjectCard/>
+        </FadeInUp>
         </Grid>
         <Grid item>
+          <FadeInUp delay = '.75s'>
         < WeatherAssistantToolProjectCard/>
+        </FadeInUp>
         </Grid>
 
         <Grid item>
+        <FadeInUp delay = '1s'>
         <DynamicDropRateProjectCard/>
+        </FadeInUp>
         </Grid>
     </Grid>
     )
@@ -37,7 +50,7 @@ export function PortfolioWebsiteProjectCard() {
     return (
             <Card className="ProjectCard" sx={{ minWidth: 275, boxShadow: 5, background:'var(--card-background-color)', color:'var(--primary-text-color)',
               ':hover': {
-            boxShadow: 20}}}>
+            boxShadow: 24}}}>
               <CardContent>
                 <Typography sx={{ fontSize: 34 }} variant="h5" component="div" align={"center"} gutterBottom >
                 Portfolio Website
@@ -45,7 +58,7 @@ export function PortfolioWebsiteProjectCard() {
                 <Typography sx={{ mb: 1.5, fontSize:22 }} color='var(--secondary-text-color)'align={"center"}>
                   React, JavaScript, HTML, CSS, AWS
                 </Typography>
-                <Typography variant="body2" align={"center"} paddingBottom={'20%'}>
+                <Typography variant="body2" align={"center"} paddingBottom={'24%'}>
                     I developed my personal portfolio website using React, JavaScript, HTML, CSS, and AWS Cloud Services for hosting. Every component was crafted by me, leveraging available libraries to enhance functionality and design. You can explore the development process and progress through the GitHub link below.
                </Typography>
                 <PortfolioGithubLinkCard/>
@@ -62,7 +75,7 @@ export function OhHellProjectCard() {
   return (
     <Card className="ProjectCard" sx={{ minWidth: 275, boxShadow: 5, background:'var(--card-background-color)', color:'var(--primary-text-color)',
       ':hover': {
-    boxShadow: 20}}}>
+    boxShadow: 24}}}>
             <CardContent>
             <Typography sx={{ fontSize: 34 }} variant="h5" component="div" align={"center"} gutterBottom >
               Oh Hell
@@ -71,7 +84,7 @@ export function OhHellProjectCard() {
               <Typography sx={{ mb: 1.5, fontSize:22 }} color='var(--secondary-text-color)'align={"center"}>
                 Java
               </Typography>
-              <Typography variant="body2" align={"center"}  paddingBottom={'20%'}>
+              <Typography variant="body2" align={"center"}  paddingBottom={'24%'}>
               This is a text-based card game developed in Java, adhering to OOP and SOLID principles. The project integrates various elements such as cards, players, AI, hands, tables, and a game board. You can access and try out the program via the source code provided in the GitHub link below.
                </Typography>
               <OhHellGithubLinkCard/>
@@ -88,7 +101,7 @@ export function WeatherAssistantToolProjectCard() {
   return (
     <Card className="ProjectCard" sx={{ minWidth: 275, boxShadow: 5, background:'var(--card-background-color)', color:'var(--primary-text-color)',
       ':hover': {
-    boxShadow: 20}}}>
+    boxShadow: 24}}}>
             <CardContent>
             <Typography sx={{ fontSize: 34 }} variant="h5" component="div" align={"center"} gutterBottom >
               Weather Assistant Tool
@@ -108,7 +121,7 @@ export function WeatherAssistantToolProjectCard() {
               <Button sx={{
                   verticalAlign:'center',
                   ':hover': {
-          boxShadow: 20}}}>
+          boxShadow: 24}}}>
 
                 </Button>
               
@@ -125,7 +138,7 @@ export function ServerProjectCard() {
   return (
     <Card className="ProjectCard" sx={{ minWidth: 275, boxShadow: 5, background:'var(--card-background-color)', color:'var(--primary-text-color)',
       ':hover': {
-    boxShadow: 20}}}>
+    boxShadow: 24}}}>
             <CardContent>
               <Typography sx={{ fontSize: 34 }} variant="h5" component="div" align={"center"} gutterBottom >
               Public Gaming Servers
@@ -137,7 +150,7 @@ export function ServerProjectCard() {
               Linux, SQL, MariaDB, Plugin, Scripting, Teamwork
               </Typography>
               <Typography variant="body2" align={"center"}>
-                Own and contribute to a proxy-based network of gaming servers that have provided a range of gaming experiences to over 20,000 unique players for more than five years. This project involves extensive teamwork and integration of various server management and scripting technologies.
+                Own and contribute to a proxy-based network of gaming servers that have provided a range of gaming experiences to over 24,000 unique players for more than five years. This project involves extensive teamwork and integration of various server management and scripting technologies.
               </Typography>
               <br/><br/>
             </CardContent>
@@ -152,7 +165,7 @@ export function DynamicDropRateProjectCard() {
   return (
     <Card className="ProjectCard" sx={{ minWidth: 275, boxShadow: 5,  background:'var(--card-background-color)', color:'var(--primary-text-color)',
       ':hover': {
-    boxShadow: 20}}}>
+    boxShadow: 24}}}>
             <CardContent sx={{justifyContent:"center"}}>
             <Typography sx={{ fontSize: 34 }} variant="h5" component="div" align={"center"} gutterBottom >
               Dynamic Drop Rate Calculator
@@ -160,7 +173,7 @@ export function DynamicDropRateProjectCard() {
               <Typography sx={{ mb: 1.5, fontSize:22 }} color='var(--secondary-text-color)' align={"center"}>
               Statistics, Python, Django
               </Typography>
-              <Typography variant="body2" align={"center"}  paddingBottom={'20%'}>
+              <Typography variant="body2" align={"center"}  paddingBottom={'24%'}>
               Software to help automate analysis for item drop odds, to help us set drop rates for the Gaming Servers.
               </Typography>
 
@@ -178,7 +191,7 @@ export function PortfolioGithubLinkCard() {
     return (
         <Card sx={{ marginLeft:'25%', marginRight:'25%',position:'absolute',bottom:'5%', background:'var(--card-inner-background-color)',
             ':hover': {
-          boxShadow: 20,
+          boxShadow: 24,
           cursor: 'pointer' }}}>
                <CardMedia component = "img" image={gitLogo} 
                onClick={() => {
@@ -192,9 +205,9 @@ export function PortfolioGithubLinkCard() {
 }
 export function OhHellGithubLinkCard() { 
   return (
-      <Card justify="flex-end" alignItems="flex-end" sx={{ marginLeft:'25%', marginRight:'25%',position:'absolute',bottom:'5%', background:'var(--card-inner-background-color)',
+      <Card justify="flex" alignItems="flex" sx={{ marginLeft:'25%', marginRight:'25%',position:'absolute',bottom:'5%', background:'var(--card-inner-background-color)',
           ':hover': {
-        boxShadow: 20,
+        boxShadow: 24,
         cursor: 'pointer' }}}>
              <CardMedia component = "img" image={gitLogo} 
              onClick={() => {
@@ -210,7 +223,7 @@ export function WATGithubLinkCard() {
   return (
       <Card sx={{ marginLeft:'25%', marginRight:'25%', position:'absolute',bottom:'5%', background:'var(--card-inner-background-color)',
           ':hover': {
-        boxShadow: 20,
+        boxShadow: 24,
         cursor: 'pointer' }}}>
              <CardMedia component = "img" image={gitLogo} 
              onClick={() => {
@@ -226,7 +239,7 @@ export function DynamicDropRateGithubLinkCard() {
   return (
       <Card sx={{ marginLeft:'25%', marginRight:'25%', position:'absolute',bottom:'5%', background:'var(--card-inner-background-color)',
           ':hover': {
-        boxShadow: 20,
+        boxShadow: 24,
         cursor: 'pointer' }}}>
              <CardMedia component = "img" image={gitLogo} 
              onClick={() => {

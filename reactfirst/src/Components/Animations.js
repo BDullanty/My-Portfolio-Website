@@ -19,7 +19,7 @@ export const FadeInLeft = styled.div`
    `;
 export const FadeInUp = styled.div`
    opacity: 0;
-   animation: 3s ${keyframes`${fadeInUp}`} ;
+   animation: 1s ${keyframes`${fadeInUp}`} ;
    animation-delay:  ${props => props.delay || '0s'};
    animation-fill-mode: forwards;
   }
