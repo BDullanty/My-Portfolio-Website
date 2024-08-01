@@ -13,16 +13,18 @@ export function ButtonAppBar() {
         <Toolbar sx={{height: '10vh' }}>
           <IconButton
             
+            size="large"
             edge="start"
             color="inherit"
             aria-label="menu"
-            sx={{ mr: 2 }}
+            sx={{ mr: 2,  ':hover': {backgroundColor: 'var(--secondary-color)' }}}
             onClick={() => {
                 window.location.assign("/");
                    
-               }}>
+               }}>               
             
             
+            <Typography variant="body1" component="div" >
             Home
             </Typography>
           </IconButton>
@@ -31,7 +33,7 @@ export function ButtonAppBar() {
             edge="start"
             color="inherit"
             aria-label="menu"
-            sx={{ mr: 2 }}
+            sx={{ mr: 2 ,':hover': {backgroundColor: 'var(--secondary-color)' }}}
             onClick={() => {
                 window.location.assign("/Education");
                    
@@ -47,7 +49,7 @@ export function ButtonAppBar() {
             edge="start"
             color="inherit"
             aria-label="menu"
-            sx={{ mr: 2 }}
+            sx={{ mr: 2, ':hover': {backgroundColor: 'var(--secondary-color)' }}}
             onClick={() => {
                 window.location.assign("/Projects");
                    
@@ -68,7 +70,7 @@ export function ButtonAppBar() {
             sx={{ mr: 2 }} onClick={() => {
                 window.location.assign("/HireMe");
                    
-               }}><Typography variant="body1" component="div" sx={{ flexGrow: 0 }} center>
+               }}><Typography variant="body1" component="div" sx={{ flexGrow: 0 ,':hover': {backgroundColor: 'var(--secondary-color)' }}} center>
                     Hire Me
                     </Typography>
                 </IconButton>
