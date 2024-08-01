@@ -5,7 +5,6 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  height: 100dvh;
 }
 .HomePage-header{
   text-align: center;
@@ -21,10 +20,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: var(--primary-text-color);
   padding: 3vh;
   margin-top: 9vh;
+  height: 100dvh;
 }
 
 
@@ -32,7 +31,6 @@
   text-align: center;
   font-size: calc(7.9vmin);
   vertical-align: center;
-
   font-family: var(--primary-font-type);
 }
 .HomePage-Secondary-Title{
