@@ -4,17 +4,23 @@ import Paper from '@mui/material/Paper';
 import './HireMe.css';
 import '../Components/LinkCards';
 import { GridOfLinkCards} from "../Components/LinkCards";
+import {FadeIn, ZoomInDown} from "../Components/Animations";
 
 export const HireMe = () => {
   return (
     <div className="HireMe">
       <ButtonAppBar/>
-      <header className="HireMe-header">
-      <h1 className="HireMe-titletext">Contact Information</h1>
-      <h5 className="Project-secondary-title">(Prefered contact is by email)</h5>
 
+      <header className="HireMe-header">
+      
+        <FadeIn speed='2s'>
+        <h1 className="HireMe-titletext">Contact Information</h1>
+        <h5 className="Project-secondary-title">(Prefered contact is by email)</h5>
+        </FadeIn>
       </header>
       <body className='HireMe-body'>
+        <ZoomInDown  speed='1.25s' className="HireMe-Paper-content">
+          
         <Paper elevation={20} className="HireMe-Paper-content" sx={{background:'var(--card-background-color)', color:'var(--primary-text-color)'}}>
 
           <div>
@@ -26,7 +32,10 @@ export const HireMe = () => {
           <h5 className="HireMe-MediaTitle">SocialMedia:</h5>
           <br/>
           <GridOfLinkCards/>
+          
+        
         </Paper >
+        </ZoomInDown>
         <Paper elevation={3} />
       </body >
       
