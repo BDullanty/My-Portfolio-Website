@@ -3,71 +3,104 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Grid from '@mui/material/Unstable_Grid2';
 import Typography from '@mui/material/Typography';
+import { FadeInUp } from "./Animations";
 export function GridOfEducationCards(){
   return (
-    <Grid container spacing = {2} className="ClassCardBackground">
-              <Grid item>
-        <Class437/>
-        </Grid>
-        <Grid item>
-        <Class434/>
-        </Grid>
-     
-        <Grid item>
-        <Class300/>
-        </Grid>
-        <Grid item>
-        <Class303/>
-        </Grid>
-        <Grid item>
-        <Class320/>
-        </Grid>
-        <Grid item>
-        <Class327/>
-        </Grid>
-        <Grid item>
-        <Class330/>
-        </Grid>
-        <Grid item>
-        <Class340/>
-        </Grid>
-        <Grid item>
-        <Class350/>
-        </Grid>
-        <Grid item>
-        <Class429/>
-        </Grid>
-        <Grid item>
-        <Class210/>
-        </Grid>
-        <Grid item>
-        <Class211/>
-        </Grid>
-        <Grid item>
-        <Class212/>
-        </Grid>
-        <Grid item>
-        <Class240/>
-        </Grid>
-        <Grid item>
-        <Class260/>
-        </Grid>
-
-        <Grid item>
-        <Class202/>
-        </Grid>
-
-        <Grid item>
-        <Class160/>
-        </Grid>
-
+    <Grid container spacing={2} className="ClassCardBackground">
+    <Grid item>
+        <FadeInUp delay='0.25s'>
+            <Class437/>
+        </FadeInUp>
     </Grid>
+    <Grid item>
+        <FadeInUp delay='0.5s'>
+            <Class434/>
+        </FadeInUp>
+    </Grid>
+    <Grid item>
+        <FadeInUp delay='0.75s'>
+            <Class300/>
+        </FadeInUp>
+    </Grid>
+    <Grid item>
+        <FadeInUp delay='1s'>
+            <Class303/>
+        </FadeInUp>
+    </Grid>
+    <Grid item>
+        <FadeInUp delay='1.25s'>
+            <Class320/>
+        </FadeInUp>
+    </Grid>
+    <Grid item>
+        <FadeInUp delay='1.5s'>
+            <Class327/>
+        </FadeInUp>
+    </Grid>
+    <Grid item>
+        <FadeInUp delay='1.75s'>
+            <Class330/>
+        </FadeInUp>
+    </Grid>
+    <Grid item>
+        <FadeInUp delay='2s'>
+            <Class340/>
+        </FadeInUp>
+    </Grid>
+    <Grid item>
+        <FadeInUp delay='2.25s'>
+            <Class350/>
+        </FadeInUp>
+    </Grid>
+    <Grid item>
+        <FadeInUp delay='2.5s'>
+            <Class429/>
+        </FadeInUp>
+    </Grid>
+    <Grid item>
+        <FadeInUp delay='2.75s'>
+            <Class210/>
+        </FadeInUp>
+    </Grid>
+    <Grid item>
+        <FadeInUp delay='3s'>
+            <Class211/>
+        </FadeInUp>
+    </Grid>
+    <Grid item>
+        <FadeInUp delay='3.25s'>
+            <Class212/>
+        </FadeInUp>
+    </Grid>
+    <Grid item>
+        <FadeInUp delay='3.5s'>
+            <Class240/>
+        </FadeInUp>
+    </Grid>
+    <Grid item>
+        <FadeInUp delay='3.75s'>
+            <Class260/>
+        </FadeInUp>
+    </Grid>
+    <Grid item>
+        <FadeInUp delay='4s'>
+            <Class202/>
+        </FadeInUp>
+    </Grid>
+    <Grid item>
+        <FadeInUp delay='4.25s'>
+            <Class160/>
+        </FadeInUp>
+    </Grid>
+</Grid>
+
 
   );
 }
 
 export function Class160() { 
   return (
+
           <Card  className="ClassCard" sx={{ minWidth: 250, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
             ':hover': {
           boxShadow: 20,}}}>
@@ -88,7 +121,6 @@ export function Class160() {
             </CardContent>
 
           </Card>
-      
   )
   
 }
