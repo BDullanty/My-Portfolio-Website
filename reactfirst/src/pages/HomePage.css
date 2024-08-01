@@ -30,7 +30,7 @@
 
 .HomePage-Title{
   text-align: center;
-  font-size: calc(10px + 5vmin);
+  font-size: calc(7.9vmin);
   vertical-align: center;
 
   font-family: var(--primary-font-type);
@@ -39,6 +39,7 @@
   text-align: center;
   vertical-align: center;
   font-family: var(--secondary-font-type);
+  font-size: calc(5vmin);
 }
 .HomePage-body {
   box-sizing: border-box;
