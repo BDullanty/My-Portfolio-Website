@@ -10,7 +10,7 @@ export const Education = () => {
       <ButtonAppBar/>
       
       <header className="Education-header">
-        <FadeInDown>
+        <FadeInDown speed='.75s'>
         <h1 className="Education-title">Completed Coursework</h1>
         <br/>
         <h5 className="Education-subtitle">
