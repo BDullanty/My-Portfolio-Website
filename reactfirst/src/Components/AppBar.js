@@ -9,10 +9,10 @@ export function ButtonAppBar() {
 
   return (
   
-      <AppBar position='relative' sx={{ backgroundColor: 'var(--primary-color)' ,color:'var(--primary-text-color)'}}>
-        <Toolbar >
+      <AppBar  sx={{backgroundColor: 'var(--primary-color)' ,color:'var(--primary-text-color)'}}>
+        <Toolbar sx={{height: '10vh' }}>
           <IconButton
-            size="small"
+            
             edge="start"
             color="inherit"
             aria-label="menu"
@@ -22,7 +22,7 @@ export function ButtonAppBar() {
                    
                }}>
             
-            <Typography variant="body1" component="div" sx={{ flexGrow: 1 }}>
+            
             Home
             </Typography>
           </IconButton>
