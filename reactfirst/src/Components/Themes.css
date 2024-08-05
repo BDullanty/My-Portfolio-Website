@@ -1,3 +1,22 @@
+
+@font-face {
+  font-family: "PrimaryFont";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/catamaran/v19/o-0bIpQoyXQa2RxT7-5B6Ryxs2E_6n1iPHjd5a7duw.woff2);
+  }
+@font-face {
+  font-family: "SecondaryFont";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/dellarespira/v22/RLp5K5v44KaueWI6iEJQBiGPdf4Yug.woff2);
+}
+@font-face {
+  font-family: "ThirdFont";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/yantramanav/v13/flU8Rqu5zY00QEpyWJYWN5fzXeY.woff2);
+}
 :root{
   --primary-color: #0d1b2a;
   --secondary-color: #1b263b;
@@ -6,7 +25,7 @@
   --card-background-color:#415a77;
   --card-inner-background-color:#e0e1dd;
 
-  --primary-font-type:"Roboto Slab";
-  --secondary-font-type:"Poppins";
-  --third-font-type:"Gentium Basic";
+  --primary-font-type:"PrimaryFont";
+  --secondary-font-type:"SecondaryFont";
+  --third-font-type:"ThirdFont";
 }
