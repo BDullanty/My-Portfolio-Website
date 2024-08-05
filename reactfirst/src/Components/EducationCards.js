@@ -111,7 +111,7 @@ export function Class160() {
               <Typography variant="h5" component="div">
               Digital Circuits
               </Typography>
-              <Typography sx={{ mb: 1.5 }} color="--secondary-text-color">
+              <Typography sx={{ mb: 1.5 ,fontFamily:"PrimaryFont"}} color="--secondary-text-color">
                 B+
               </Typography>
               <Typography variant="body2">
@@ -137,7 +137,7 @@ export function Class202() {
               <Typography variant="h5" component="div">
               Computing Ethics
               </Typography>
-              <Typography sx={{ mb: 1.5 }} color="--secondary-text-color">
+              <Typography sx={{ mb: 1.5 ,fontFamily:"PrimaryFont"}} color="--secondary-text-color">
                 A-
               </Typography>
               <Typography variant="body2">
@@ -164,7 +164,7 @@ export function Class210() {
                 <Typography variant="h5" component="div">
                 Java Principals
                 </Typography>
-                <Typography sx={{ mb: 1.5 }} color="--secondary-text-color">
+                <Typography sx={{ mb: 1.5 ,fontFamily:"PrimaryFont"}} color="--secondary-text-color">
                   A
                 </Typography>
                 <Typography variant="body2">
@@ -190,7 +190,7 @@ export function Class211() {
               <Typography variant="h5" component="div">
               Java Principals II
               </Typography>
-              <Typography sx={{ mb: 1.5 }} color="--secondary-text-color">
+              <Typography sx={{ mb: 1.5 ,fontFamily:"PrimaryFont"}} color="--secondary-text-color">
                 A
               </Typography>
               <Typography variant="body2">
@@ -213,7 +213,7 @@ export function Class212() {
               <Typography variant="h5" component="div">
               Object Oriented Programming
               </Typography>
-              <Typography sx={{ mb: 1.5 }} color="--secondary-text-color">
+              <Typography sx={{ mb: 1.5 ,fontFamily:"PrimaryFont"}} color="--secondary-text-color">
                 B+
               </Typography>
               <Typography variant="body2">
@@ -236,7 +236,7 @@ export function Class240() {
               <Typography variant="h5" component="div">
               C and Unix Programming
               </Typography>
-              <Typography sx={{ mb: 1.5 }} color="--secondary-text-color">
+              <Typography sx={{ mb: 1.5 ,fontFamily:"PrimaryFont"}} color="--secondary-text-color">
                 B-
               </Typography>
               <Typography variant="body2">
@@ -259,7 +259,7 @@ export function Class260() {
               <Typography variant="h5" component="div">
               Architecture And Organization
               </Typography>
-              <Typography sx={{ mb: 1.5 }} color="--secondary-text-color">
+              <Typography sx={{ mb: 1.5 ,fontFamily:"PrimaryFont"}} color="--secondary-text-color">
                 A-
               </Typography>
               <Typography variant="body2">
@@ -282,7 +282,7 @@ export function Class300() {
               <Typography variant="h5" component="div">
               Data Structures
               </Typography>
-              <Typography sx={{ mb: 1.5 }} color="--secondary-text-color">
+              <Typography sx={{ mb: 1.5 ,fontFamily:"PrimaryFont"}} color="--secondary-text-color">
                 A-
               </Typography>
               <Typography variant="body2">
@@ -305,7 +305,7 @@ export function Class303() {
               <Typography variant="h5" component="div">
               Computer and Information Security
               </Typography>
-              <Typography sx={{ mb: 1.5 }} color="--secondary-text-color">
+              <Typography sx={{ mb: 1.5 ,fontFamily:"PrimaryFont"}} color="--secondary-text-color">
                 A
               </Typography>
               <Typography variant="body2">
@@ -327,7 +327,7 @@ export function Class305() {
               <Typography variant="h5" component="div">
               C++ Programming
               </Typography>
-              <Typography sx={{ mb: 1.5 }} color="--secondary-text-color">
+              <Typography sx={{ mb: 1.5 ,fontFamily:"PrimaryFont"}} color="--secondary-text-color">
                 A
               </Typography>
               <Typography variant="body2">
@@ -350,7 +350,7 @@ export function Class320() {
               <Typography variant="h5" component="div">
               Algorithms
               </Typography>
-              <Typography sx={{ mb: 1.5 }} color="--secondary-text-color">
+              <Typography sx={{ mb: 1.5 ,fontFamily:"PrimaryFont"}} color="--secondary-text-color">
                 B
               </Typography>
               <Typography variant="body2">
@@ -373,7 +373,7 @@ export function Class327() {
               <Typography variant="h5" component="div">
               Relational Database Systems
               </Typography>
-              <Typography sx={{ mb: 1.5 }} color="--secondary-text-color">
+              <Typography sx={{ mb: 1.5 ,fontFamily:"PrimaryFont"}} color="--secondary-text-color">
                 A-
               </Typography>
               <Typography variant="body2">
@@ -395,7 +395,7 @@ export function Class330() {
               <Typography variant="h5" component="div">
               Computer Networks
               </Typography>
-              <Typography sx={{ mb: 1.5 }} color="--secondary-text-color">
+              <Typography sx={{ mb: 1.5 ,fontFamily:"PrimaryFont"}} color="--secondary-text-color">
                 A
               </Typography>
               <Typography variant="body2">
@@ -418,7 +418,7 @@ export function Class340() {
               <Typography variant="h5" component="div">
               Operating Systems
               </Typography>
-              <Typography sx={{ mb: 1.5 }} color="--secondary-text-color">
+              <Typography sx={{ mb: 1.5 ,fontFamily:"PrimaryFont"}} color="--secondary-text-color">
                 A
               </Typography>
               <Typography variant="body2">
@@ -442,7 +442,7 @@ export function Class350() {
               <Typography variant="h5" component="div">
               Software Development Principles
               </Typography>
-              <Typography sx={{ mb: 1.5 }} color="--secondary-text-color">
+              <Typography sx={{ mb: 1.5 ,fontFamily:"PrimaryFont"}} color="--secondary-text-color">
                 A-
               </Typography>
               <Typography variant="body2">
@@ -464,7 +464,7 @@ export function Class429() {
               <Typography variant="h5" component="div">
               Data Mining
               </Typography>
-              <Typography sx={{ mb: 1.5 }} color="--secondary-text-color">
+              <Typography sx={{ mb: 1.5 ,fontFamily:"PrimaryFont"}} color="--secondary-text-color">
                 B+
               </Typography>
               <Typography variant="body2">
@@ -486,7 +486,7 @@ export function Class434() {
               <Typography variant="h5" component="div">
               Network Security
               </Typography>
-              <Typography sx={{ mb: 1.5 }} color="--secondary-text-color">
+              <Typography sx={{ mb: 1.5 ,fontFamily:"PrimaryFont"}} color="--secondary-text-color">
                 A
               </Typography>
               <Typography variant="body2">
@@ -509,7 +509,7 @@ export function Class437() {
               <Typography variant="h5" component="div">
               Secure Coding
               </Typography>
-              <Typography sx={{ mb: 1.5 }} color="--secondary-text-color">
+              <Typography sx={{ mb: 1.5 ,fontFamily:"PrimaryFont"}} color="--secondary-text-color">
                 A
               </Typography>
               <Typography variant="body2">

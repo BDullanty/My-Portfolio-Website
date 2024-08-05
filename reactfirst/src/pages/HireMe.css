@@ -76,9 +76,9 @@
   text-align: center;
   margin-top: 0vh;
   margin-bottom: 0px;
-  font-size: calc(5vmin);
-  font-family: var(--secondary-font-type);
-  
+  font-size: calc(4.5vmin);
+  font-family: var(--third-font-type);
+  width: 100%;
   
 }
 .HireMe-MediaTitle{
@@ -88,5 +88,5 @@
   padding: 0vh;
   margin-bottom: 0px;
   font-size: calc( 5vmin);
-  font-family:var(--secondary-font-type);
+  font-family:var(--third-font-type);
 }
