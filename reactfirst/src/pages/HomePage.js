@@ -12,7 +12,7 @@ export const HomePage = () => {
       
        <ButtonAppBar/>
       
-       <header className='HomePage-header'>
+       <div className='HomePage-header'>
           <FadeInLeft delay='0s'>        
               <h1 className="HomePage-Title">
                  Welcome! I'm Brady,         
@@ -29,14 +29,14 @@ export const HomePage = () => {
           <FadeIn delay='1.25s'>
           <h6 className="HomePage-Secondary-Title">Feel free to click a new page above, or scroll to learn more about my journey.</h6>
           </FadeIn>
-       </header>
+       </div>
 
-      <body className='HomePage-body'> 
+      <div className='HomePage-body'> 
 
       <FadeIn delay='1.5s'>
       <HomePagePageGrid/>
       </FadeIn>
-      </body>
+      </div>
      
       <PageFooter/>
       

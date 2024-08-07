@@ -11,14 +11,14 @@ export const HireMe = () => {
     <div className="HireMe">
       <ButtonAppBar/>
 
-      <header className="HireMe-header">
+      <div className="HireMe-header">
       
         <FadeIn speed='2s'>
         <h1 className="HireMe-titletext">Contact Information</h1>
         <h5 className="Project-secondary-title">(Prefered contact is by email)</h5>
         </FadeIn>
-      </header>
-      <body className='HireMe-body'>
+      </div>
+      <div className='HireMe-body'>
         <ZoomInDown  speed='1.25s' className="HireMe-Paper-content">
           
         <Paper elevation={20} className="HireMe-Paper-content" sx={{background:'var(--card-background-color)', color:'var(--primary-text-color)'}}>
@@ -37,7 +37,7 @@ export const HireMe = () => {
         </Paper >
         </ZoomInDown>
         <Paper elevation={3} />
-      </body >
+      </div >
       
       <PageFooter/>
     </div>

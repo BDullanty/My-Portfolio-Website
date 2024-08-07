@@ -9,7 +9,7 @@ export const Education = () => {
     <div className="Education">
       <ButtonAppBar/>
       
-      <header className="Education-header">
+      <div className="Education-header">
         <FadeIn speed='4s'>
         <h1 className="Education-title">Completed Coursework</h1>
         <br/>
@@ -17,10 +17,10 @@ export const Education = () => {
             I am currently a senior at Eastern Washington University, having completed over twenty-three courses in Computer Science and Mathematics. These classes have given me a solid foundation in software development, programming languages, algorithms, networks, and cybersecurity.
         </h5>
         </FadeIn>
-        </header>
-      <body className='Education-body'>
+        </div>
+      <div className='Education-body'>
         <GridOfEducationCards/>
-      </body >
+      </div >
       <PageFooter/>
     </div>
   )

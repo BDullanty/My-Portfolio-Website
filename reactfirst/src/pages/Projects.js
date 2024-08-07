@@ -8,20 +8,20 @@ export const Projects = () => {
   return (
     <div className="Projects">
       <ButtonAppBar/>
-      <header className="Projects-header">
+      <div className="Projects-header">
         <FadeInRight>
       <h1 className="Projects-Title">Projects</h1>
     
       <br/>
       <h5 className="Projects-Secondary-Title">Feel free to click on each to view source code.</h5>
       </FadeInRight>
-      </header>
-      <body className='Projects-body'>
+      </div>
+      <div className='Projects-body'>
         <br/>
         
         <br/>
         <GridOfProjectCards/>
-      </body >
+      </div >
      <PageFooter/>
     </div>
   )
