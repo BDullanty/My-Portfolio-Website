@@ -28,7 +28,7 @@ export const HireMe = () => {
           <p className="HireMe-ContentText">School Email: Bdullanty@ewu.edu</p>
           </div>
           <br/>
-          <p className="HireMe-ContentText">Phone: 775 *** ****</p>
+          <p className="HireMe-ContentText">Phone: (775) 842-6198</p>
           <h5 className="HireMe-MediaTitle">SocialMedia:</h5>
           <br/>
           <GridOfLinkCards/>
