@@ -15,7 +15,7 @@ export const HireMe = () => {
       
         <FadeIn speed='2s'>
         <h1 className="HireMe-titletext">Contact Information</h1>
-        <h5 className="Project-secondary-title">(Prefered contact is by email)</h5>
+        <h5 className="Project-secondary-title">(Preferred contact is by email)</h5>
         </FadeIn>
       </div>
       <div className='HireMe-body'>
