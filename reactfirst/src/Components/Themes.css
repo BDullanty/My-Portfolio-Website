@@ -1,10 +1,10 @@
 
 @font-face {
-  font-family: "PrimaryFont";
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/catamaran/v19/o-0bIpQoyXQa2RxT7-5B6Ryxs2E_6n1iPHjd5a7duw.woff2);
-  }
+    font-family: "PrimaryFont";
+    font-style: normal;
+    font-weight: 400;
+    src: url("");
+}
 @font-face {
   font-family: "SecondaryFont";
   font-style: normal;
