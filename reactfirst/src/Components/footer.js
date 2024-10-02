@@ -5,7 +5,7 @@ export function PageFooter() {
   return (
     <footer className="Footer">
     <h6 className="Footer-Statement">
-      Website created by Brady Dullanty using React, hosted using AWS</h6>
+      Website created by Brady Dullanty using React, hosted using AWS Amplify</h6>
     </footer>
 
   );      
