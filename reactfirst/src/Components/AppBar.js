@@ -14,6 +14,7 @@ export function ButtonAppBar() {
     backgroundColor: 'var(--primary-color)',
     color: 'var(--primary-text-color)',
     width: '100%',
+    
     boxSizing: 'border-box', 
     overflowX: 'auto',   
     }}
@@ -23,10 +24,10 @@ export function ButtonAppBar() {
       display: 'flex',
       justifyContent: 'center', 
       alignItems: 'center',     
-      height: '10vh',
+      height: '12vh',
       whiteSpace: 'nowrap',     
       overflowX: 'auto',
-      gap: 2,                        
+      gap: 2,           
       horizontalPadding: 2,   
       '@media (max-width: 600px)': {
         justifyContent: 'flex-start', 
@@ -34,19 +35,25 @@ export function ButtonAppBar() {
     }}
   >
           <IconButton
-            
             size="large"
             edge="start"
             color="inherit"
             aria-label="menu"
-            sx={{ mr: 2,  ':hover': {backgroundColor: 'var(--secondary-color)' }}}
+            
+            sx={{ mr: 2, 
+              
+              ':hover': {backgroundColor: 'var(--secondary-color)' }}}
             onClick={() => {
                 window.location.assign("/");
                    
                }}>               
             
             
-            <Typography variant="body1" component="div" >
+            <Typography variant="body1" component="div" 
+             sx={{ 
+              fontSize: '1.7rem', // Increases the font size of the text
+              fontWeight: 'bold', // Optionally, make the text bold for better visibility
+            }}>
             Home
             </Typography>
           </IconButton>
@@ -61,7 +68,11 @@ export function ButtonAppBar() {
                    
                }}>
             
-            <Typography variant="body1" component="div" center>
+            <Typography variant="body1" component="div" center
+             sx={{ 
+              fontSize: '1.5rem', // Increases the font size of the text
+              fontWeight: 'bold', // Optionally, make the text bold for better visibility
+            }}>
             Education
           </Typography> 
           </IconButton>
@@ -77,7 +88,11 @@ export function ButtonAppBar() {
             sx={{ mr: 2, ':hover': {backgroundColor: 'var(--secondary-color)'}}} onClick={() => {
                 window.location.assign("/Certificates");
                    
-               }}><Typography variant="body1" component="div" center>
+               }}><Typography variant="body1" component="div" center
+               sx={{ 
+                fontSize: '1.5rem', // Increases the font size of the text
+                fontWeight: 'bold', // Optionally, make the text bold for better visibility
+              }}>
                     Certificates
                     </Typography>
                 </IconButton>
@@ -93,7 +108,11 @@ export function ButtonAppBar() {
                    
                }}>
             
-            <Typography variant="body1" component="div" center>
+            <Typography variant="body1" component="div" center
+             sx={{ 
+              fontSize: '1.5rem', // Increases the font size of the text
+              fontWeight: 'bold', // Optionally, make the text bold for better visibility
+            }}>
             Projects
             </Typography>
           </IconButton>
@@ -108,7 +127,11 @@ export function ButtonAppBar() {
             sx={{ mr: 2, ':hover': {backgroundColor: 'var(--secondary-color)'}}} onClick={() => {
                 window.location.assign("/HireMe");
                    
-               }}><Typography variant="body1" component="div" center>
+               }}><Typography variant="body1" component="div" center
+               sx={{ 
+                fontSize: '1.5rem', // Increases the font size of the text
+                fontWeight: 'bold', // Optionally, make the text bold for better visibility
+              }}>
                     Hire Me
                     </Typography>
                 </IconButton>
