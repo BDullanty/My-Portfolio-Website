@@ -9,7 +9,7 @@ import HomePage from "./pages/HomePage";
 import Education from "./pages/Education";
 import HireMe from "./pages/HireMe";
 import Projects from "./pages/Projects";
-
+import Certs from "./pages/Certs"
 function App(){
   return (
     <Router>
@@ -18,6 +18,7 @@ function App(){
         <Route path="/Education" element = {<Education/>} />
         <Route path="/HireMe" element = {<HireMe/>} />
         <Route path="/Projects" element = {<Projects/>} />
+        <Route path="/Certificates" element = {<Certs/>} />
       </Routes>
     </Router>
   );

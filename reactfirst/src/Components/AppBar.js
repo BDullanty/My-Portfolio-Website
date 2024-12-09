@@ -9,8 +9,30 @@ export function ButtonAppBar() {
 
   return (
   
-      <AppBar  sx={{backgroundColor: 'var(--primary-color)' ,color:'var(--primary-text-color)'}}>
-        <Toolbar sx={{height: '10vh' }}>
+<AppBar
+  sx={{
+    backgroundColor: 'var(--primary-color)',
+    color: 'var(--primary-text-color)',
+    width: '100%',
+    boxSizing: 'border-box', 
+    overflowX: 'auto',   
+    }}
+>
+  <Toolbar
+    sx={{
+      display: 'flex',
+      justifyContent: 'center', 
+      alignItems: 'center',     
+      height: '10vh',
+      whiteSpace: 'nowrap',     
+      overflowX: 'auto',
+      gap: 2,                        
+      horizontalPadding: 2,   
+      '@media (max-width: 600px)': {
+        justifyContent: 'flex-start', 
+      }                 
+    }}
+  >
           <IconButton
             
             size="large"
@@ -43,7 +65,23 @@ export function ButtonAppBar() {
             Education
           </Typography> 
           </IconButton>
-          
+
+
+
+                
+          <IconButton
+            size="large"
+            edge="start"
+            color="inherit"
+            aria-label="menu"
+            sx={{ mr: 2, ':hover': {backgroundColor: 'var(--secondary-color)'}}} onClick={() => {
+                window.location.assign("/Certificates");
+                   
+               }}><Typography variant="body1" component="div" center>
+                    Certificates
+                    </Typography>
+                </IconButton>
+           
           <IconButton
             size="large"
             edge="start"
@@ -74,7 +112,8 @@ export function ButtonAppBar() {
                     Hire Me
                     </Typography>
                 </IconButton>
-        </Toolbar>
+
+       </Toolbar>
       </AppBar>
   );
 }
