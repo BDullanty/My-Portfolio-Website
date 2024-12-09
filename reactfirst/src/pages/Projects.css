@@ -4,9 +4,8 @@
   display: flex;
   text-align: center;
   box-sizing: border-box;
-
   flex-direction: column;
-  height: 100dvh;
+  height: 100vh;
 }
 .Projects-header {
   text-align: center;
@@ -27,7 +26,6 @@
   padding: 3vh;
   padding-bottom: 0;
   margin-top: 9vh;
-  
   margin-bottom: -1vh;
 }
 
