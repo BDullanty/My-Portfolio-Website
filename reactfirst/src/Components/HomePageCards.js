@@ -73,9 +73,9 @@ export function HomePageAboutMe() {
         }}>
             <h4 className="HomePage-Card-Title">About Me:</h4>
             <h6 className="HomePage-Card-Content">
-                I am Brady Dullanty, a dedicated computer science student with six months remaining until graduation in June 2025.
+                I am Brady Dullanty, a dedicated computer science student with less than 3 months remaining until graduation in June 2025.
                 <br /><br />
-                I have honed strong skills in program development, cybersecurity, computer networking, and cloud computing, particularly with AWS services.
+                I have strong skills in program development, cybersecurity, computer networking, and cloud computing, particularly with AWS services.
                 <br /><br />
                 Through diverse coursework in programming, mathematics, cybersecurity, and networking, I have gained the expertise necessary to build robust applications free from vulnerabilities.
                 <br /><br />
