@@ -6,29 +6,29 @@ import Typography from '@mui/material/Typography';
 import { FadeInUp } from "./Animations";
 export function GridOfEducationCards(){
   return (
-    <Grid container spacing={2} className="ClassCardBackground">
+<Grid container spacing={2} className="ClassCardBackground">
     <Grid item>
         <FadeInUp delay='0.25s'>
             <Class371/>
         </FadeInUp>
     </Grid>
     <Grid item>
-        <FadeInUp delay='0.25s'>
+        <FadeInUp delay='0.75s'>
             <Class467/>
         </FadeInUp>
     </Grid>
     <Grid item>
-        <FadeInUp delay='0.25s'>
+        <FadeInUp delay='1.25s'>
             <Class437/>
         </FadeInUp>
     </Grid>
     <Grid item>
-        <FadeInUp delay='0.5s'>
+        <FadeInUp delay='1.75s'>
             <Class434/>
         </FadeInUp>
     </Grid>
     <Grid item>
-        <FadeInUp delay='1.5s'>
+        <FadeInUp delay='2.25s'>
             <Class327/>
         </FadeInUp>
     </Grid>
@@ -38,78 +38,77 @@ export function GridOfEducationCards(){
         </FadeInUp>
     </Grid>
     <Grid item>
-        <FadeInUp delay='3s'>
+        <FadeInUp delay='3.25s'>
             <Class211/>
         </FadeInUp>
     </Grid>
     <Grid item>
-        <FadeInUp delay='0.75s'>
+        <FadeInUp delay='3.75s'>
             <Class300/>
         </FadeInUp>
     </Grid>
     <Grid item>
-        <FadeInUp delay='1s'>
+        <FadeInUp delay='4.25s'>
             <Class484/>
         </FadeInUp>
     </Grid>
     <Grid item>
-        <FadeInUp delay='1s'>
+        <FadeInUp delay='4.75s'>
             <Class303/>
         </FadeInUp>
     </Grid>
     <Grid item>
-        <FadeInUp delay='1.25s'>
+        <FadeInUp delay='5.25s'>
             <Class320/>
         </FadeInUp>
     </Grid>
-
     <Grid item>
-        <FadeInUp delay='1.75s'>
+        <FadeInUp delay='5.75s'>
             <Class330/>
         </FadeInUp>
     </Grid>
     <Grid item>
-        <FadeInUp delay='2s'>
+        <FadeInUp delay='6.25s'>
             <Class340/>
         </FadeInUp>
     </Grid>
     <Grid item>
-        <FadeInUp delay='2.25s'>
+        <FadeInUp delay='6.75s'>
             <Class350/>
         </FadeInUp>
     </Grid>
     <Grid item>
-        <FadeInUp delay='2.5s'>
+        <FadeInUp delay='7.25s'>
             <Class429/>
         </FadeInUp>
     </Grid>
-
     <Grid item>
-        <FadeInUp delay='3.25s'>
+        <FadeInUp delay='7.75s'>
             <Class212/>
         </FadeInUp>
     </Grid>
     <Grid item>
-        <FadeInUp delay='3.5s'>
+        <FadeInUp delay='8.25s'>
             <Class240/>
         </FadeInUp>
     </Grid>
     <Grid item>
-        <FadeInUp delay='3.75s'>
+        <FadeInUp delay='8.75s'>
             <Class260/>
         </FadeInUp>
     </Grid>
     <Grid item>
-        <FadeInUp delay='4s'>
+        <FadeInUp delay='9.25s'>
             <Class202/>
         </FadeInUp>
     </Grid>
     <Grid item>
-        <FadeInUp delay='4.25s'>
+        <FadeInUp delay='9.75s'>
             <Class160/>
         </FadeInUp>
     </Grid>
 </Grid>
+
 
 
   );
