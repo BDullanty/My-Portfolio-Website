@@ -9,12 +9,37 @@ export function GridOfEducationCards(){
     <Grid container spacing={2} className="ClassCardBackground">
     <Grid item>
         <FadeInUp delay='0.25s'>
+            <Class371/>
+        </FadeInUp>
+    </Grid>
+    <Grid item>
+        <FadeInUp delay='0.25s'>
+            <Class467/>
+        </FadeInUp>
+    </Grid>
+    <Grid item>
+        <FadeInUp delay='0.25s'>
             <Class437/>
         </FadeInUp>
     </Grid>
     <Grid item>
         <FadeInUp delay='0.5s'>
             <Class434/>
+        </FadeInUp>
+    </Grid>
+    <Grid item>
+        <FadeInUp delay='1.5s'>
+            <Class327/>
+        </FadeInUp>
+    </Grid>
+    <Grid item>
+        <FadeInUp delay='2.75s'>
+            <Class210/>
+        </FadeInUp>
+    </Grid>
+    <Grid item>
+        <FadeInUp delay='3s'>
+            <Class211/>
         </FadeInUp>
     </Grid>
     <Grid item>
@@ -32,11 +57,7 @@ export function GridOfEducationCards(){
             <Class320/>
         </FadeInUp>
     </Grid>
-    <Grid item>
-        <FadeInUp delay='1.5s'>
-            <Class327/>
-        </FadeInUp>
-    </Grid>
+
     <Grid item>
         <FadeInUp delay='1.75s'>
             <Class330/>
@@ -57,16 +78,7 @@ export function GridOfEducationCards(){
             <Class429/>
         </FadeInUp>
     </Grid>
-    <Grid item>
-        <FadeInUp delay='2.75s'>
-            <Class210/>
-        </FadeInUp>
-    </Grid>
-    <Grid item>
-        <FadeInUp delay='3s'>
-            <Class211/>
-        </FadeInUp>
-    </Grid>
+
     <Grid item>
         <FadeInUp delay='3.25s'>
             <Class212/>
@@ -452,6 +464,27 @@ export function Class350() {
           </Card>
   )
 }
+export function Class371() { 
+  return (
+          <Card  className="ClassCard" sx={{ minWidth: 250, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
+            ':hover': {
+          boxShadow: 20,}}}>
+            <CardContent>
+              <Typography sx={{ fontSize: 14 }} color="--secondary-text-color" gutterBottom>
+               CSCD371
+              </Typography>
+              <Typography variant="h5" component="div">
+              .NET Programming
+              </Typography>
+              <Typography sx={{ mb: 1.5 ,fontFamily:"PrimaryFont"}} color="--secondary-text-color">
+                A
+              </Typography>
+              <Typography variant="body2">
+              This course introduces .NET Programming and the .NET framework. Emphasis was be placed on understanding the syntactical features of the language and how to effectively use the design of the language in conjunction with the .NET Framework. Topics included .NET fundamentals, .NET assemblies, language fundamentals, object oriented design and programming, delegates and events, threading, serialization, database connectivity, windows and dialogs, and GUI components.              </Typography>
+            </CardContent>
+          </Card>
+  )
+}
 export function Class429() { 
   return (
           <Card  className="ClassCard" sx={{ minWidth: 250, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
@@ -518,4 +551,27 @@ export function Class437() {
             </CardContent>
           </Card>
   )
+}
+
+export function Class467() { 
+    return (
+            <Card  className="ClassCard" sx={{ minWidth: 250, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
+              ':hover': {
+            boxShadow: 20,}}}>
+              <CardContent>
+                <Typography sx={{ fontSize: 14 }} color="--secondary-text-color" gutterBottom>
+                 CSCD467
+                </Typography>
+                <Typography variant="h5" component="div">
+                Cloud Computing
+                </Typography>
+                <Typography sx={{ mb: 1.5 ,fontFamily:"PrimaryFont"}} color="--secondary-text-color">
+                  A
+                </Typography>
+                <Typography variant="body2">
+                This course focused on the AWS Serices, including EC2, RDS Databases, API Gateway, IAM roles, VPC Connections, Data Transfering Services, AWS Lambda, and more. From this knowledge, I was able to complete and obtain the AWS Academy Graduate - AWS Academy Cloud Architecting Certification.
+                </Typography>
+              </CardContent>
+            </Card>
+    )
 }
