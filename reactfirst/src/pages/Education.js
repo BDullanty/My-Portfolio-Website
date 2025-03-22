@@ -14,7 +14,7 @@ export const Education = () => {
         <h1 className="Education-title">Completed Coursework</h1>
         <br/>
         <h5 className="Education-subtitle">
-            I am currently a senior at Eastern Washington University, having completed over twenty-6 courses in Computer Science and Mathematics. These classes have given me a solid foundation in software development, programming languages, algorithms, networks, and cybersecurity.
+        I am currently a senior at Eastern Washington University, with over 26 completed courses in Computer Science and Mathematics. These courses have provided me with a strong foundation in software development, programming languages, algorithms, networking, and cybersecurity, equipping me with the skills needed to tackle complex technical challenges.
         </h5>
         </FadeIn>
         </div>
