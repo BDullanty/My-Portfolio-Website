@@ -49,6 +49,11 @@ export function GridOfEducationCards(){
     </Grid>
     <Grid item>
         <FadeInUp delay='1s'>
+            <Class484/>
+        </FadeInUp>
+    </Grid>
+    <Grid item>
+        <FadeInUp delay='1s'>
             <Class303/>
         </FadeInUp>
     </Grid>
@@ -574,4 +579,26 @@ export function Class467() {
               </CardContent>
             </Card>
     )
+}
+export function Class484() { 
+  return (
+          <Card  className="ClassCard" sx={{ minWidth: 250, boxShadow:3, background:'var(--card-background-color)', color:'var(--primary-text-color)',
+            ':hover': {
+          boxShadow: 20,}}}>
+            <CardContent>
+              <Typography sx={{ fontSize: 14 }} color="--secondary-text-color" gutterBottom>
+               CSCD484
+              </Typography>
+              <Typography variant="h5" component="div">
+              Machine Learning
+              </Typography>
+              <Typography sx={{ mb: 1.5 ,fontFamily:"PrimaryFont"}} color="--secondary-text-color">
+                A
+              </Typography>
+              <Typography variant="body2">
+              This course studied various methods for learning and recognizing patterns in data. It discussed supervised learning models that included decision trees, linear regression and its nonlinear transformation, logistic regression, neural networks, and model ensembles. Unsupervised learning topics included various clustering algorithms, and principle component analysis for dimensionality reduction. The course focused on explaining why these underhood learnings can be possible and how they are achieved.
+              </Typography>
+            </CardContent>
+          </Card>
+  )
 }
