@@ -132,7 +132,7 @@ export function ButtonAppBar() {
                 fontSize: '1.5rem', // Increases the font size of the text
                 fontWeight: 'bold', // Optionally, make the text bold for better visibility
               }}>
-                    Hire Me
+                    Contact Me
                     </Typography>
                 </IconButton>
 

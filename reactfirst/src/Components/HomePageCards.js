@@ -54,8 +54,8 @@ export function HomePageMissionStatement() {
         }}>
             <h4 className="HomePage-Card-Title">Mission Statement:</h4>
             <h6 className="HomePage-Card-Content">
-                I am eager to contribute to an ethical company as an intern or entry-level software developer.
-                <br /><br /> I aim to apply my skills and enthusiasm for technology to support impactful projects and advance my professional development.
+                I am eager to contribute as an intern or entry-level software developer.
+                <br /><br /> I aim to apply my SDE skills and passion for growth to support impactful projects and advance my professional development.
                 <br /><br /> I am committed to making a positive impact and learning from experienced professionals in a collaborative environment.
             </h6>
 
@@ -73,13 +73,13 @@ export function HomePageAboutMe() {
         }}>
             <h4 className="HomePage-Card-Title">About Me:</h4>
             <h6 className="HomePage-Card-Content">
-                I am Brady Dullanty, a dedicated computer science student with less than 3 months remaining until graduation in June 2025.
+                I am Brady Dullanty, a Software Developer and a BSCS student with less than 3 months remaining until I graduate in June 2025.
                 <br /><br />
-                I have strong skills in program development, cybersecurity, computer networking, and cloud computing, particularly with AWS services.
+                I have strong skills in software development, including C#, Java, Python, and more. 
                 <br /><br />
-                Through diverse coursework in programming, mathematics, cybersecurity, and networking, I have gained the expertise necessary to build robust applications free from vulnerabilities.
+                Through diverse coursework in software development, AWS cloud computing, mathematics, cybersecurity, and networking, I have gained the expertise necessary to move into the development industry.
                 <br /><br />
-                I thrive on tackling complex problems and enjoy implementing effective solutions, supported by a solid foundation in data structures, algorithms, and database systems.
+                I enjoy tackling complex problems and enjoy solving problems with effective solutions in my field.
             </h6>
 
         </Paper>

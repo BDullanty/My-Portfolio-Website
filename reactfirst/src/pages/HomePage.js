@@ -27,7 +27,7 @@ export const HomePage = () => {
               
 
           <FadeIn delay='1.25s'>
-          <h6 className="HomePage-Secondary-Title">Feel free to click a new page above, or scroll to learn more about my journey.</h6>
+          <h6 className="HomePage-Secondary-Title">Feel free to click a new page above, or scroll below to learn more about me.</h6>
           </FadeIn>
        </div>
 
