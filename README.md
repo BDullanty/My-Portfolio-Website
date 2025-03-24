@@ -5,4 +5,4 @@ Contains elements of React, HTML, CSS, and JavaScript.
 
 ### For setup/build instructions, see [Setup.md](/Setup.md)
 
-Deplayed at [BDullanty.com](https://BDullanty.com)
+Deployed on AWS Amplify at [BDullanty.com](https://BDullanty.com)
