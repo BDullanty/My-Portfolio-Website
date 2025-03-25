@@ -213,7 +213,7 @@ export function OhHellGithubLinkCard() {
         cursor: 'pointer' }}}>
              <CardMedia component = "img" image={gitLogo} 
              onClick={() => {
-              window.open("https://github.com/BDullanty/OH-Hell","_blank")
+              window.open("https://github.com/BDullanty/OH-Hell-Web-App","_blank")
              }}
              />
        
