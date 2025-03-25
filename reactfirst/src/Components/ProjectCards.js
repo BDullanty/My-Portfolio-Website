@@ -78,14 +78,16 @@ export function OhHellProjectCard() {
     boxShadow: 24}}}>
             <CardContent>
             <Typography sx={{ fontSize: 34 }} variant="h5" component="div" align={"center"} gutterBottom >
-              Oh Hell
+              Full Stack Card Game
               </Typography>
 
               <Typography sx={{ mb: 1.5, fontSize:22 }} color='var(--secondary-text-color)'align={"center"}>
                 Java
               </Typography>
               <Typography variant="body2" align={"center"}  paddingBottom={'24%'}>
-              This is a text-based card game developed in Java, adhering to OOP and SOLID principles. The project integrates various elements such as cards, players, AI, hands, tables, and a game board. You can access and try out the program via the source code provided in the GitHub link below.
+              A full stack game adhering to OOP and SOLID principles. Back end started as a text based game written in Java, but was later
+              reworked into C#. Front end is built using AWS services including Cognito, EC2, and RDS
+              databases. You can access and try out the program via the source code provided in the GitHub link below.
                </Typography>
               <OhHellGithubLinkCard/>
 
