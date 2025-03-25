@@ -82,7 +82,7 @@ export function OhHellProjectCard() {
               </Typography>
 
               <Typography sx={{ mb: 1.5, fontSize:22 }} color='var(--secondary-text-color)'align={"center"}>
-                Java
+                Java,C#,React, JavaScript, HTML, CSS, AWS services
               </Typography>
               <Typography variant="body2" align={"center"}  paddingBottom={'24%'}>
               A full stack game adhering to OOP and SOLID principles. Back end started as a text based game written in Java, but was later
